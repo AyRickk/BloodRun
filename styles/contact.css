@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f2f2f2;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-page{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: flex-start;
+    flex: 1;
+    position: relative;
+}
+
+.logo img {
+    flex-shrink: 0;
+    width: 28px;
+    height: 40px;
+    position: relative;
+}
+
+.logo-text{
+    color: #121212;
+    text-align: left;
+    font: var(--h-418-20, 700 18px/20px 'Barlow', sans-serif);
+    text-transform: uppercase;
+    position: relative;
+}
+
+.link {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    align-items: center;
+    justify-content: flex-end;
+    flex: 1;
+    position: relative;
+}
+
+.link-word {
+    color: #121212;
+    text-align: center;
+    font: var(--h-418-20, 700 18px/20px 'Barlow', sans-serif);
+    text-transform: uppercase;
+    position: relative;
+    transition: .5s;
+    text-decoration: none;
+}
+
+.link-word:hover {
+    color: #e11b19;
+    cursor: pointer;
+}
+
+.contact-page-title{
+    position: relative;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.back-title{
+    text-align: center;
+    -webkit-text-stroke: 1px #00000050;
+    color: transparent;
+    font-size: 110px;
+    letter-spacing: 6px;
+}
+
+.front-title{
+    color: #000;
+    font-weight: 900;
+    font-size: 50px;
+    transform: translateY(-95px);
+}
+
+.front-title span{
+    color: #ff0000;
+}
+
+.contact-boxes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.contact-box{
+    background-color: #00000025;
+    padding: 17px;
+    border-radius: 3px ;
+    border-left: 2px solid #ff0000;
+    width: 100%;
+    max-width: 360px;
+    margin-bottom: 40px;
+}
+
+.box-title{
+    font-size: 20px;
+    color: #000;
+    margin-bottom: 10px;
+}
+
+.box-icon{
+    background: #ff0000;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 18px;
+    border-radius: 20%;
+    color: #fff;
+}
+
+.box-content{
+    color: #858585;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.contact-form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+input{
+    width: 100%;
+    margin-bottom: 10px;
+    background: #00000025;
+    padding: 14px;
+    color: #000;
+    border: 0;
+}
+
+textarea{
+    width: 100%;
+    margin-bottom: 10px;
+    background: #00000025;
+    padding: 14px;
+    color: #000;
+    border: 0;
+    resize: none;
+    height: 160px;
+}
+
+.success-message{
+    color: #ff0000;
+    justify-content: center;
+    text-align: center;
+}
+
+input::placeholder{
+    color: #888;
+}
+
+.nameInput,.emailInput{
+    width: calc(50% - 5px);
+}
+
+.nameInput{
+    border-top-left-radius: 10px;
+}
+
+.emailInput{
+    border-top-right-radius: 10px;
+}
+
+.sendbtn{
+    background-color: #ff0000;
+    border-radius: 0 0 10px 10px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 500;
+    transition: .3s linear;
+}
+
+.sendbtn:hover{
+    opacity: .7;
+}
+
+@media screen and (max-width:1200px) {
+    .contact-box{
+        max-width: 100%;
+    }
+
+    .nameInput,.emailInput{
+        width: 100%;
+        border-radius: 0;
+    }
+
+    .nameInput{
+        border-radius: 10px 10px 0 0;
+    }
+}

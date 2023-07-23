@@ -1,0 +1,356 @@
+/*=============== GOOGLE FONTS ===============*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap");
+
+/*=============== VARIABLES CSS ===============*/
+:root {
+    --header-height: 3.5rem;
+
+    /*========== Colors ==========*/
+    /*Color mode HSL(hue, saturation, lightness)*/
+    --black-color: #2d2d2d;
+    --black-color-light: hsl(220, 24%, 15%);
+    --black-color-lighten: hsl(220, 20%, 18%);
+    --white-color: #fff;
+    --body-color: #461111;
+
+    /*========== Font and typography ==========*/
+    /*.5rem = 8px | 1rem = 16px ...*/
+    --body-font: "Montserrat", sans-serif;
+    --normal-font-size: .938rem;
+
+    /*========== Font weight ==========*/
+    --font-regular: 400;
+    --font-semi-bold: 600;
+
+    /*========== z index ==========*/
+    --z-tooltip: 10;
+    --z-fixed: 100;
+}
+
+/*========== Responsive typography ==========*/
+@media screen and (min-width: 1024px) {
+    :root {
+        --normal-font-size: 1rem;
+    }
+}
+
+/*=============== BASE ===============*/
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: var(--body-font);
+    font-size: var(--normal-font-size);
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color:#121212;
+}
+
+/*=============== REUSABLE CSS CLASSES ===============*/
+.container {
+    max-width: 1120px;
+    margin-inline: 1.5rem;
+}
+
+/*=============== HEADER ===============*/
+.header {
+    position: absolute;
+    top: 1%;
+    left: 0;
+    width: 100%;
+    background-color: #00000000;
+    /*box-shadow: 0 2px 16px hsla(220, 32%, 8%, .3);*/
+    z-index: var(--z-fixed);
+}
+
+/*=============== NAV ===============*/
+.nav {
+    height: calc(var(--header-height) + 1.5rem);
+    margin-right: 5em;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: flex-start;
+    flex: 1;
+    position: relative;
+}
+
+.logo img {
+    flex-shrink: 0;
+    width: 28px;
+    height: 40px;
+    position: relative;
+}
+
+.logo-text{
+    color: #121212;
+    text-align: left;
+    font: var(--h-418-20, 700 18px/20px 'Barlow', sans-serif);
+    text-transform: uppercase;
+    position: relative;
+}
+
+.link {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    align-items: center;
+    justify-content: flex-end;
+    flex: 1;
+    position: relative;
+}
+
+.link-word {
+    color: #121212;
+    text-align: center;
+    font: var(--h-418-20, 700 18px/20px 'Barlow', sans-serif);
+    text-transform: uppercase;
+    position: relative;
+    transition: .5s;
+    text-decoration: none;
+}
+
+.link-word:hover {
+    color: #e11b19;
+    cursor: pointer;
+}
+
+.nav__toggle {
+    position: relative;
+    width: 32px;
+    height: 32px;
+
+}
+
+.nav__burger,
+.nav__close {
+    position: absolute;
+    width: max-content;
+    height: max-content;
+    inset: 0;
+    margin: auto;
+    font-size: 1.25rem;
+    cursor: pointer;
+    transition: opacity .1s, transform .4s;
+}
+
+.nav__close {
+    opacity: 0;
+}
+
+.nav__logo,
+.nav__burger,
+.nav__close {
+    color: #121212;
+    z-index: 5;
+
+}
+
+.nav__data {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 5em;
+}
+
+
+
+.nav__toggle {
+    position: relative;
+    width: 32px;
+    height: 32px;
+
+}
+
+.nav__burger,
+.nav__close {
+    position: absolute;
+    width: max-content;
+    height: max-content;
+    inset: 0;
+    margin: auto;
+    font-size: 1.25rem;
+    cursor: pointer;
+    transition: opacity .1s, transform .4s;
+}
+
+.nav__close {
+    opacity: 0;
+}
+
+.noScroll {
+    overflow: hidden;
+    height: 100%;
+}
+
+/* Navigation for mobile devices */
+@media screen and (max-width: 1200px) {
+    .nav__menu {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;  /* Added this line */
+        width: 100%;
+        height: 100%;  /* Updated this line */
+        overflow: auto;
+        pointer-events: none;
+        opacity: 0;
+        transition: top .4s, opacity .3s;
+    }
+    .nav__menu::-webkit-scrollbar {
+        width: 0;
+    }
+    .nav__list {
+        height: 100%;  /* Added this line */
+        display: flex;  /* Added this line */
+        flex-direction: column;  /* Added this line */
+        justify-content: center;  /* Added this line */
+        background-color: var(--black-color);
+        padding-top: 1rem;
+    }
+
+    .nav__link{
+        color: #ffffff;
+    }
+    .nav__close {
+        color: #ffffff;
+        z-index: 5;
+
+    }
+}
+
+
+
+
+
+
+.nav__link {
+
+    color: #121212;
+    font: var(--h-418-20, 700 18px/20px 'Barlow', sans-serif);
+    display: flex;
+    justify-content: center; /* center the text */
+    align-items: center;
+    transition: color .3s;
+    margin-bottom: 10px; /* add space between each link */
+    padding-bottom: 20px;
+}
+
+.nav__link span{
+    transition: .5s;
+}
+
+.nav__link span:hover {
+    color: #e11b19;
+    cursor: pointer;
+}
+
+/* Show menu */
+.show-menu {
+    opacity: 1;
+    top:0;
+    pointer-events: initial;
+}
+
+/* Show icon */
+.nav__burger, .nav__close {
+    transition: opacity 0.5s, transform 0.5s;
+}
+
+/* Hide icon */
+.hide-icon {
+    opacity: 0;
+    transform: rotate(90deg);
+
+}
+
+.show-icon {
+    opacity: 100%;
+
+}
+
+
+/*=============== BREAKPOINTS ===============*/
+/* For small devices */
+@media screen and (max-width: 340px) {
+    .container {
+        margin-inline: 1rem;
+    }
+
+    .nav__link {
+        padding-inline: 1rem;
+    }
+}
+
+/* For large devices */
+@media screen and (min-width: 1200px) {
+    .container {
+        margin-inline: auto;
+    }
+
+    .nav {
+        height: calc(var(--header-height) + 3rem);
+        display: flex;
+        justify-content: space-between;
+    }
+    .nav__toggle {
+        display: none;
+    }
+    .nav__list {
+        height: 100%;
+        display: flex;
+        column-gap: 3rem;
+    }
+    .nav__link {
+        height: 100%;
+        padding: 0;
+        justify-content: initial;
+        column-gap: .25rem;
+    }
+    .nav__link:hover {
+        background-color: transparent;
+    }
+
+
+}
+
+
+@media screen and (max-width: 1200px) {
+    .nav__link span{
+        color: #ffffff;
+    }
+
+    .nav__link{
+        font: var(--h-418-20, 700 35px/25px 'Barlow', sans-serif);
+    }
+}
+
+
+@media screen and (max-width: 480px) {
+    .nav{
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+
+    .nav__data{
+        margin-left: 0;
+    }
+
+
+}
