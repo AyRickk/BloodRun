@@ -101,7 +101,7 @@ const HomePage: React.FC = () => {
             </div>
 
             <div className="map-section">
-                <iframe src='https://connect.garmin.com/modern/course/embed/177567622' width='465' height='548' frameBorder='0' />
+                <iframe className="map" src='https://connect.garmin.com/modern/course/embed/177567622' frameBorder='0' />
 
                 <div className="map-text">
                     <div className="map-headline">

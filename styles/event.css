@@ -13,6 +13,11 @@
     overflow: hidden;
 }
 
+.map {
+    width: 465px;
+    height: 548px;
+}
+
 .map-text {
     display: flex;
     flex-direction: column;
@@ -23,6 +28,7 @@
     width: 445px;
     position: relative;
 }
+
 .map-headline {
     display: flex;
     flex-direction: column;
@@ -33,6 +39,7 @@
     flex-shrink: 0;
     position: relative;
 }
+
 .map-header-group {
     display: flex;
     flex-direction: column;
@@ -43,6 +50,7 @@
     flex-shrink: 0;
     position: relative;
 }
+
 .map-title {
     color: #121212;
     text-align: left;
@@ -51,6 +59,7 @@
     position: relative;
     align-self: stretch;
 }
+
 .steps {
     display: flex;
     flex-direction: column;
@@ -61,6 +70,7 @@
     width: 354px;
     position: relative;
 }
+
 .step {
     display: flex;
     flex-direction: row;
@@ -71,11 +81,13 @@
     flex-shrink: 0;
     position: relative;
 }
+
 .step-check {
     flex-shrink: 0;
     position: relative;
     overflow: visible;
 }
+
 .step-text {
     color: #121212;
     text-align: left;
@@ -97,11 +109,9 @@
 }
 
 
-.icon-features.event{
+.icon-features.event {
     background-color: #ffffff;
 }
-
-
 
 
 .team {
@@ -121,6 +131,7 @@
     position: relative;
     overflow: hidden;
 }
+
 .team-title {
     color: #000000;
     text-align: center;
@@ -128,6 +139,7 @@
     text-transform: uppercase;
     position: relative;
 }
+
 .members {
     display: flex;
     flex-direction: row;
@@ -139,6 +151,7 @@
     flex-shrink: 0;
     position: relative;
 }
+
 .member {
     display: flex;
     flex-direction: column;
@@ -148,6 +161,7 @@
     flex-shrink: 0;
     position: relative;
 }
+
 .member-role {
     color: #00000080;
     text-align: center;
@@ -155,6 +169,7 @@
     text-transform: uppercase;
     position: relative;
 }
+
 .member-name {
     color: #000000;
     text-align: center;
@@ -176,9 +191,132 @@
 }
 
 
-@media screen and (max-width: 1270px)
-{
-    .food-members{
+@media screen and (max-width: 1270px) {
+    .food-members {
         flex-direction: column;
     }
 }
+
+
+@media screen and (max-width: 1344px) {
+
+    .map-section{
+        padding: 100px 10px 100px 10px;
+        margin: auto;
+    }
+    .map-text {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .map-headline {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .map-title {
+        text-align: center;
+    }
+
+
+
+}
+
+@media screen and (max-width: 580px) {
+
+    .H1-preset.event .headline{
+        font: var(--h-1-6475, 700 40px/50px "Barlow", sans-serif);
+    }
+
+    .H1-preset.event .overline{
+        font: var(--h-5-1620, 700 16px/20px "Barlow", sans-serif);
+    }
+
+    .H1-preset.event .paragraph{
+        font: var(--lead-paragraph-2430, 400 24px/30px "Barlow", sans-serif);
+    }
+
+
+
+}
+@media screen and (max-width: 580px) {
+
+    .team-title{
+        font: var(--h-1-6475, 700 40px/75px "Barlow", sans-serif);
+    }
+
+    .member-name{
+        font: var(--h-2-3640, 700 30px/40px "Barlow", sans-serif);
+    }
+
+    .member-role{
+        font: var(--h-3-2430, 700 20px/30px "Barlow", sans-serif);
+    }
+
+    .members{
+        gap: 50px;
+    }
+}
+
+
+@media screen and (max-width: 480px) {
+
+    .map{
+        width: 90%;
+    }
+
+    .member-role {
+        font: var(--h-3-2430, 700 16px/30px "Barlow", sans-serif);
+    }
+
+    .member-name {
+        font: var(--h-2-3640, 700 24px/40px "Barlow", sans-serif);
+    }
+
+    .members {
+        gap: 30px;
+    }
+    .member {
+        gap: 5px;
+    }
+
+    .H1-preset.event .paragraph{
+        font: var(--lead-paragraph-2430, 400 20px/28px "Barlow", sans-serif);
+    }
+}
+
+
+@media screen and (max-width: 400px) {
+    .map-title{
+        font: var(--h-2-3640, 700 30px/40px "Barlow", sans-serif);
+        text-align: center;
+    }
+
+    .step-text{
+        font: var(--h-5-1620, 700 14px/20px "Barlow", sans-serif);
+    }
+
+    .map-headline{
+        align-items: center;
+        justify-content: center;
+    }
+
+    .map-header-group{
+        align-items: center;
+        justify-content: center;
+    }
+
+    .map-text{
+        align-items: center;
+        justify-content: center;
+        width : 90%;
+    }
+
+    .steps{
+        width: 90%;
+    }
+
+}
+
+
+
