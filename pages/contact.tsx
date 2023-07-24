@@ -1,35 +1,27 @@
-
-import React, {useEffect, FormEvent} from 'react';
+import React, {FormEvent, useEffect} from 'react';
 import {useState} from 'react';
 import isEmail from 'validator/lib/isEmail';
 import {useRouter} from 'next/router';
+import DotLoader from "react-spinners/DotLoader";
 import '../styles/contact.css';
-import '../styles/navbar.css';
 
 import Navbar from './components/Navbar';
 import CustomHead from './components/CustomHead';
 
 const ContactPage: React.FC = () => {
     const {query} = useRouter();
-
+    const [hydrated, setHydrated] = useState(false);
+    const [loading, setLoading] = useState(false); // new state for loading
 
     useEffect(() => {
-        if (query.scrollTo) {
-            const element = document.querySelector(query.scrollTo as string) as HTMLElement;
-            window.scrollTo({
-                top: element?.offsetTop ?? 0,
-                behavior: 'smooth'
-            });
-        }
-    }, [query]);
+        setHydrated(true);
+    }, []);
 
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
     const [subject, setSubject] = useState('');
     const [message, setMessage] = useState('');
     const [successMessage, setSuccessMessage] = React.useState("");
-
-
 
     const handleSubmit = async (event: FormEvent) => {
         event.preventDefault();
@@ -39,6 +31,7 @@ const ContactPage: React.FC = () => {
             return;
         }
 
+        setLoading(true); // start loading
 
         // Send a POST request to the API endpoint
         fetch('/api/contact', {
@@ -52,20 +45,18 @@ const ContactPage: React.FC = () => {
                     // Affiche le message de succès à l'utilisateur
                     setSuccessMessage(data.message);
                 }
+                setLoading(false); // end loading
             })
             .catch((error) => {
                 console.error('Error:', error);
+                setLoading(false); // end loading in case of error
             });
-
-
-
     }
-
 
 
     return (
         <>
-            <CustomHead title="Contact"/>
+            <CustomHead title="Contact | Blood Run"/>
             <Navbar/>
             <br/>
             <br/>
@@ -109,18 +100,25 @@ const ContactPage: React.FC = () => {
                     </div>
                 </div>
 
-                {successMessage && <p className="success-message">{successMessage}</p>}
-                <form onSubmit={handleSubmit} className="contact-form">
-                    <input type="text" className="nameInput" placeholder="Name" value={name}
-                           onChange={e => setName(e.target.value)}/>
-                    <input type="email" className="emailInput" placeholder="Email" value={email}
-                           onChange={e => setEmail(e.target.value)}/>
-                    <input type="text" className="subjectInput" placeholder="Subject" value={subject}
-                           onChange={e => setSubject(e.target.value)}/>
-                    <textarea className="msgArea" placeholder="Your Message" value={message}
-                              onChange={e => setMessage(e.target.value)}></textarea>
-                    <input type="submit" className="sendbtn" value="Send Message"/>
-                </form>
+                {successMessage && <p className="success-message">{successMessage} </p>}
+                {hydrated && (
+                    <form onSubmit={handleSubmit} className="contact-form">
+                        <input type="text" className="nameInput" placeholder="Name" value={name}
+                               onChange={e => setName(e.target.value)}/>
+                        <input type="email" className="emailInput" placeholder="Email" value={email}
+                               onChange={e => setEmail(e.target.value)}/>
+                        <input type="text" className="subjectInput" placeholder="Subject" value={subject}
+                               onChange={e => setSubject(e.target.value)}/>
+                        <textarea className="msgArea" placeholder="Your Message" value={message}
+                                  onChange={e => setMessage(e.target.value)}></textarea>
+                        <input type="submit" className="sendbtn" value="Send Message"/>
+                        {loading && (
+                            <div className="overlay">
+                                <DotLoader color={"#ff0000"}/>
+                            </div>
+                        )}
+
+                    </form>)}
             </div>
         </>
     );

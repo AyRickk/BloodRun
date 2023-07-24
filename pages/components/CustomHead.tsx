@@ -7,7 +7,7 @@ interface CustomHeadProps {
 const CustomHead: React.FC<CustomHeadProps> = ({ title }) => {
     return (
         <Head>
-            <title>{title} | Blood Run</title>
+            <title>{title}</title>
             <link rel="icon" type="image/png" href="/logo-ddn-1.png"/>
             <meta name="viewport" content="width=device-width, initial-scale=1"/>
             <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet"/>

@@ -162,9 +162,26 @@ textarea{
 
 .success-message{
     color: #ff0000;
-    justify-content: center;
     text-align: center;
+    transform: translateY(-20px);
+
 }
+
+
+.overlay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px);
+    z-index: 1000;
+}
+
 
 input::placeholder{
     color: #888;

@@ -12,7 +12,7 @@ const HomePage: React.FC = () => {
         <>
 
 
-            <CustomHead title="Accueil"/>
+            <CustomHead title="Accueil | Blood Run"/>
             <Navbar/>
             <div className="home-page">
                 <div className="hero">

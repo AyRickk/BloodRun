@@ -14,7 +14,7 @@ const HomePage: React.FC = () => {
         <>
 
 
-            <CustomHead title="L'évènement"/>
+            <CustomHead title="L'évènement | Blood Run"/>
             <Navbar/>
             <div className="home-page">
                 <div className="hero">
