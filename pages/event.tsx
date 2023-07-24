@@ -36,7 +36,7 @@ const HomePage: React.FC = () => {
                             l'on peut faire tous les week-ends.
                             <br/>
                             Elle a l'ambition de rassembler le
-                            plus grand monde possible, elle est ouverte aux valides. aux handi
+                            plus grand monde possible, elle est ouverte aux valides, aux handi
                             sports en fauteuils, et cette année, nous espérons accueillir des
                             malvoyants qui courent en binôme avec leur guide.
                         </div>
@@ -61,7 +61,7 @@ const HomePage: React.FC = () => {
 
                         <div className="paragraph">
                             Une course organisée en partenariat avec Handibou et l'AVAC
-                            club d'athlétisme de la Vallée du Capeau.
+                            club d'athlétisme de la Vallée du Gapeau.
                             <br/>
                             <br/>
                             L'objectif est de réunir un large public afin de sensibiliser autour du don du sang, du
@@ -82,8 +82,8 @@ const HomePage: React.FC = () => {
                         </div>
 
                         <div className="paragraph">
-                            Mobilisés derrière la cause du Don de Sang. nous retrouvons les
-                            commerçants. les producteurs du village et les entreprises locales dans la
+                            Mobilisés derrière la cause du Don de Sang, nous retrouvons les
+                            commerçants, les producteurs du village et les entreprises locales dans la
                             continuité de la dynamique de la Fête de la Figue.
                             <br/>
                             <br/>
