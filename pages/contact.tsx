@@ -11,8 +11,6 @@ import CustomHead from './components/CustomHead';
 
 const ContactPage: React.FC = () => {
     const {query} = useRouter();
-    const [showMenu, setShowMenu] = useState(false);
-    const [showIcon, setShowIcon] = useState(true);
 
 
     useEffect(() => {
