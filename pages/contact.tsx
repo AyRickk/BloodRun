@@ -1,7 +1,6 @@
 import React, {FormEvent, useEffect} from 'react';
 import {useState} from 'react';
 import isEmail from 'validator/lib/isEmail';
-import {useRouter} from 'next/router';
 import DotLoader from "react-spinners/DotLoader";
 import '../styles/contact.css';
 
