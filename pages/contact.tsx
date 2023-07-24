@@ -1,4 +1,4 @@
-import Head from 'next/head';
+
 import React, {useEffect, FormEvent} from 'react';
 import {useState} from 'react';
 import isEmail from 'validator/lib/isEmail';
