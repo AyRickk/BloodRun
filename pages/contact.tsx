@@ -14,15 +14,6 @@ const ContactPage: React.FC = () => {
     const [showMenu, setShowMenu] = useState(false);
     const [showIcon, setShowIcon] = useState(true);
 
-    const toggleMenu = () => {
-        setShowMenu(!showMenu);
-        setShowIcon(!showIcon);
-        if (!showMenu) {
-            document.body.classList.add('noScroll');
-        } else {
-            document.body.classList.remove('noScroll');
-        }
-    };
 
     useEffect(() => {
         if (query.scrollTo) {
