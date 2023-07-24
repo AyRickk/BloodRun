@@ -9,7 +9,6 @@ import Navbar from './components/Navbar';
 import CustomHead from './components/CustomHead';
 
 const ContactPage: React.FC = () => {
-    const {query} = useRouter();
     const [hydrated, setHydrated] = useState(false);
     const [loading, setLoading] = useState(false); // new state for loading
 
