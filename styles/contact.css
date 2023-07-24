@@ -208,4 +208,23 @@ input::placeholder{
     .nameInput{
         border-radius: 10px 10px 0 0;
     }
+
+
+    .back-title{
+        text-align: center;
+        -webkit-text-stroke: 1px #00000050;
+        color: transparent;
+        font-size: 15vw; /* Adapte la taille de la police à la largeur de l'écran */
+        letter-spacing: 0.5vw; /* Adapte l'espacement des lettres à la largeur de l'écran */
+    }
+
+    .front-title{
+        color: #000;
+        font-weight: 900;
+        font-size: 6vw; /* Adapte la taille de la police à la largeur de l'écran */
+        transform: translateY(-13vw); /* Adapte le déplacement à la largeur de l'écran */
+    }
+
 }
+
+

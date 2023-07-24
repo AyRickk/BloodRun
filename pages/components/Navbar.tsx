@@ -36,9 +36,8 @@ const Navbar = () => {
                     <ul className="nav__list">
                         <li className="nav__link"><a href="/"><span>Accueil</span></a></li>
                         <li className="nav__link"><a href="/event"><span>L'évènement</span></a></li>
-                        <li className="nav__link"><a href="/results"><span>Résultats</span></a></li>
+                        {/*<li className="nav__link"><a href="/results"><span>Résultats</span></a></li>*/}
                         <li className="nav__link"><a href="/contact"><span>Contact</span></a></li>
-                        <li className="nav__link"><a href="/contact"><span>Test</span></a></li>
 
                         {/* ... the rest of your links and dropdowns ... */}
                     </ul>
