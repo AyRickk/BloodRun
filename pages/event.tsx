@@ -46,6 +46,15 @@ const HomePage: React.FC = () => {
 
             </div>
 
+            <div className="media-feature event affiche-event" id="media-feature-1">
+
+                <img className="affiche" src="/afficheRecto2023.jpg"/>
+
+                <img className="affiche" src="/afficheVerso2023.jpg"/>
+
+
+
+            </div>
 
             <div className="media-feature event" id="media-feature-1">
 

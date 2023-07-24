@@ -1,3 +1,22 @@
+.affiche{
+    flex-shrink: 0;
+    width: 340px;
+    height: 482px;
+    position: relative;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.affiche-event{
+
+    gap: 430px;
+    height: 580px;
+    position: relative;
+    overflow: hidden;
+
+}
+
+
 .map-section {
     background: #ffffff;
     padding: 50px 155px 50px 155px;
@@ -190,14 +209,6 @@
     position: relative;
 }
 
-
-@media screen and (max-width: 1270px) {
-    .food-members {
-        flex-direction: column;
-    }
-}
-
-
 @media screen and (max-width: 1344px) {
 
     .map-section{
@@ -221,6 +232,24 @@
 
 
 }
+
+@media screen and (max-width: 1270px) {
+    .food-members {
+        flex-direction: column;
+    }
+}
+
+
+@media screen and (max-width: 1200px) {
+    .affiche-event{
+        height: fit-content;
+        gap : 40px;
+    }
+}
+
+
+
+
 
 @media screen and (max-width: 580px) {
 
