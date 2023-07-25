@@ -16,7 +16,7 @@ const Footer = () => {
             </div>
 
             <div className="social-icons">
-                <a href="https://www.instagram.com/">
+                <a href="https://www.instagram.com/thebloodrun_83/">
                     <svg
                         className="instagram"
                         width="31"

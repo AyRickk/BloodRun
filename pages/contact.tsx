@@ -1,7 +1,7 @@
 import React, {FormEvent, useEffect} from 'react';
 import {useState} from 'react';
 import isEmail from 'validator/lib/isEmail';
-import DotLoader from "react-spinners/DotLoader";
+import { LineWave } from  'react-loader-spinner'
 import '../styles/contact.css';
 
 import Navbar from './components/Navbar';
@@ -93,7 +93,7 @@ const ContactPage: React.FC = () => {
                     <div className="contact-box">
                         <h2 className="box-title"><i className="box-icon fa-brands fa-instagram"></i> Instagram</h2>
                         <div className="box-content">
-                            @donneurdesang_lvdg83210
+                            @thebloodrun_83
                         </div>
                     </div>
                 </div>
@@ -112,7 +112,18 @@ const ContactPage: React.FC = () => {
                         <input type="submit" className="sendbtn" value="Send Message"/>
                         {loading && (
                             <div className="overlay">
-                                <DotLoader color={"#ff0000"}/>
+                                <LineWave
+                                    height="100"
+                                    width="100"
+                                    color="#ff0000"
+                                    ariaLabel="line-wave"
+                                    wrapperStyle={{}}
+                                    wrapperClass=""
+                                    visible={true}
+                                    firstLineColor=""
+                                    middleLineColor=""
+                                    lastLineColor=""
+                                />
                             </div>
                         )}
 

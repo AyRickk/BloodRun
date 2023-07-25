@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f4e0fbcf-ca93-4080-9c8a-d185ffa2c93a" name="Changes" comment="contact bug" />
+    <list default="true" id="f4e0fbcf-ca93-4080-9c8a-d185ffa2c93a" name="Changes" comment="contact bug 2">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/components/Navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/components/Navbar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/contact.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/contact.tsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -60,7 +66,7 @@
       <workItem from="1690039800379" duration="145000" />
       <workItem from="1690039973724" duration="1473000" />
       <workItem from="1690041471975" duration="188000" />
-      <workItem from="1690041689133" duration="17112000" />
+      <workItem from="1690041689133" duration="18517000" />
     </task>
     <task id="LOCAL-00001" summary="footer responsive">
       <created>1690213519267</created>
@@ -146,7 +152,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690231183137</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="contact bug 2">
+      <created>1690231252633</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1690231252633</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -176,6 +189,19 @@
     <MESSAGE value="contact final (mauvaise adresse)" />
     <MESSAGE value="contact final ave env local (mauvaise adresse)" />
     <MESSAGE value="contact bug" />
-    <option name="LAST_COMMIT_MESSAGE" value="contact bug" />
+    <MESSAGE value="contact bug 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="contact bug 2" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/pages/contact.tsx</url>
+          <line>125</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

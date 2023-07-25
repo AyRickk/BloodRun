@@ -19,7 +19,7 @@ const Navbar = () => {
         <header className="header">
             <nav className="nav">
                 <div className="nav__data">
-                    <a href="" className="logo">
+                    <a href="/" className="logo">
                         <img src="logo-ddn-1.png"/>
                         <div className="logo-text">
                             Donneurs de sang<br/>Vallée du gapeau
