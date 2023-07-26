@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f4e0fbcf-ca93-4080-9c8a-d185ffa2c93a" name="Changes" comment="bug">
-      <change beforePath="$PROJECT_DIR$/pages/components/Sections/Hero.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/components/Sections/Hero.tsx" afterDir="false" />
+    <list default="true" id="f4e0fbcf-ca93-4080-9c8a-d185ffa2c93a" name="Changes" comment="bug 3">
+      <change beforePath="$PROJECT_DIR$/pages/components/Sections/OrganizationTeam.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/components/Sections/OrganizationTeam.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +70,7 @@
       <workItem from="1690039800379" duration="145000" />
       <workItem from="1690039973724" duration="1473000" />
       <workItem from="1690041471975" duration="188000" />
-      <workItem from="1690041689133" duration="34953000" />
+      <workItem from="1690041689133" duration="35251000" />
     </task>
     <task id="LOCAL-00001" summary="footer responsive">
       <created>1690213519267</created>
@@ -191,7 +191,28 @@
       <option name="project" value="LOCAL" />
       <updated>1690405390282</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="bug 2">
+      <created>1690405472374</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1690405472374</updated>
+    </task>
+    <task id="LOCAL-00019" summary="bug 3">
+      <created>1690405629436</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1690405629436</updated>
+    </task>
+    <task id="LOCAL-00020" summary="bug 3">
+      <created>1690405746798</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1690405746798</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -226,7 +247,9 @@
     <MESSAGE value="components" />
     <MESSAGE value="enlevage contours rouges" />
     <MESSAGE value="bug" />
-    <option name="LAST_COMMIT_MESSAGE" value="bug" />
+    <MESSAGE value="bug 2" />
+    <MESSAGE value="bug 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="bug 3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

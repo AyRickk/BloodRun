@@ -7,7 +7,7 @@ interface OrganizationTeamProps {
 
 interface Member {
     role: string;
-    name: string[];
+    name?: string[];
     isFoodMember?: boolean;
 }
 
@@ -16,19 +16,23 @@ const OrganizationTeam: React.FC<OrganizationTeamProps> = ({ team }) => {
         <div className="team">
             <div className="team-title">L’organisation</div>
             <div className="members">
-                {team.map((member, index) => (
-                    <div key={index} className="member">
-                        <div className="member-role">{member.role}</div>
-                        <div className={member.isFoodMember ? "food-members" : ""}>
-                            {Array.isArray(member.name) && member.name.map((name, index) => (
-                                <div key={index} className="member-name">{name}</div>
-                            ))}
+                {team.map((member, index) => {
+                    const { role, isFoodMember = false, name = [] } = member;
+                    return (
+                        <div key={index} className="member">
+                            <div className="member-role">{role}</div>
+                            <div className={isFoodMember ? "food-members" : ""}>
+                                {name.map((name, index) => (
+                                    <div key={index} className="member-name">{name}</div>
+                                ))}
+                            </div>
                         </div>
-                    </div>
-                ))}
+                    )
+                })}
             </div>
         </div>
     );
 };
 
 export default OrganizationTeam;
+
