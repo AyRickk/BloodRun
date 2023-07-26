@@ -4,6 +4,7 @@ import React from 'react';
 interface OrganizationTeamProps {
     team: Member[];
 }
+
 interface Member {
     role: string;
     name: string[];
@@ -11,7 +12,6 @@ interface Member {
 }
 
 const OrganizationTeam: React.FC<OrganizationTeamProps> = ({ team }) => {
-
     return (
         <div className="team">
             <div className="team-title">L’organisation</div>
@@ -20,7 +20,7 @@ const OrganizationTeam: React.FC<OrganizationTeamProps> = ({ team }) => {
                     <div key={index} className="member">
                         <div className="member-role">{member.role}</div>
                         <div className={member.isFoodMember ? "food-members" : ""}>
-                            {member.name && member.name.map((name, index) => (
+                            {Array.isArray(member.name) && member.name.map((name, index) => (
                                 <div key={index} className="member-name">{name}</div>
                             ))}
                         </div>
@@ -30,6 +30,5 @@ const OrganizationTeam: React.FC<OrganizationTeamProps> = ({ team }) => {
         </div>
     );
 };
-
 
 export default OrganizationTeam;
