@@ -20,7 +20,7 @@ const OrganizationTeam: React.FC<OrganizationTeamProps> = ({ team }) => {
                     <div key={index} className="member">
                         <div className="member-role">{member.role}</div>
                         <div className={member.isFoodMember ? "food-members" : ""}>
-                            {member.name.map((name, index) => (
+                            {member.name && member.name.map((name, index) => (
                                 <div key={index} className="member-name">{name}</div>
                             ))}
                         </div>
