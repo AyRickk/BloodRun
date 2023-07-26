@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f4e0fbcf-ca93-4080-9c8a-d185ffa2c93a" name="Changes" comment="enlevage contours rouges">
-      <change beforePath="$PROJECT_DIR$/styles/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/home.css" afterDir="false" />
+    <list default="true" id="f4e0fbcf-ca93-4080-9c8a-d185ffa2c93a" name="Changes" comment="bug">
+      <change beforePath="$PROJECT_DIR$/pages/components/Sections/Hero.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/components/Sections/Hero.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +70,7 @@
       <workItem from="1690039800379" duration="145000" />
       <workItem from="1690039973724" duration="1473000" />
       <workItem from="1690041471975" duration="188000" />
-      <workItem from="1690041689133" duration="34628000" />
+      <workItem from="1690041689133" duration="34953000" />
     </task>
     <task id="LOCAL-00001" summary="footer responsive">
       <created>1690213519267</created>
@@ -184,7 +184,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690405110838</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="bug">
+      <created>1690405390282</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1690405390282</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -218,7 +225,8 @@
     <MESSAGE value="reglages bugs animation + liens" />
     <MESSAGE value="components" />
     <MESSAGE value="enlevage contours rouges" />
-    <option name="LAST_COMMIT_MESSAGE" value="enlevage contours rouges" />
+    <MESSAGE value="bug" />
+    <option name="LAST_COMMIT_MESSAGE" value="bug" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

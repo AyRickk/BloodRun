@@ -1,5 +1,4 @@
 import React from 'react';
-import Chevron from '../Chevron';
 
 interface HeroProps {
     image?: string;

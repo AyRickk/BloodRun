@@ -3,7 +3,6 @@ import React from "react";
 import Navbar from './components/Sections/Navbar';
 import CustomHead from './components/CustomHead';
 import Footer from "./components/Sections/Footer";
-import Chevron from "./components/Chevron";
 import SectionTitle from './components/Sections/SectionTitle';
 import Hero from './components/Sections/Hero';
 import Banner from './components/Sections/Banner';
