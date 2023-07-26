@@ -1,17 +1,16 @@
 import React from 'react';
 
-
-interface OrganizationTeamProps {
-    team: Member[];
-}
-
 interface Member {
     role: string;
     name?: string[];
     isFoodMember?: boolean;
 }
 
-const OrganizationTeam: React.FC<OrganizationTeamProps> = ({ team }) => {
+interface OrganizationTeamProps {
+    team: Member[];
+}
+
+const OrganizationTeam: React.FC<OrganizationTeamProps> = ({ team = [] }) => {
     return (
         <div className="team">
             <div className="team-title">L’organisation</div>
@@ -34,5 +33,8 @@ const OrganizationTeam: React.FC<OrganizationTeamProps> = ({ team }) => {
     );
 };
 
-export default OrganizationTeam;
+OrganizationTeam.defaultProps = {
+    team: []
+};
 
+export default OrganizationTeam;
