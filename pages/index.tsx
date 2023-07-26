@@ -13,7 +13,7 @@ import MediaFeature from './components/Sections/MediaFeature';
 const HomePage: React.FC = () => {
         return (
             <>
-                <CustomHead title="Accueil | Blood Run"/>
+                <CustomHead title="The Blood Run | Accueil"/>
                 <Navbar/>
                 <div className="home-page">
                     <Hero image="/bghero.jpg"/>

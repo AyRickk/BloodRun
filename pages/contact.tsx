@@ -4,7 +4,7 @@ import isEmail from 'validator/lib/isEmail';
 import { LineWave } from  'react-loader-spinner'
 import '../styles/contact.css';
 
-import Navbar from './components/Navbar';
+import Navbar from './components/Sections/Navbar';
 import CustomHead from './components/CustomHead';
 
 const ContactPage: React.FC = () => {
@@ -54,7 +54,7 @@ const ContactPage: React.FC = () => {
 
     return (
         <>
-            <CustomHead title="Contact | Blood Run"/>
+            <CustomHead title="The Blood Run | Contact "/>
             <Navbar/>
             <br/>
             <br/>

@@ -46,7 +46,7 @@ const EventPage: React.FC = () => {
 
     return (
         <>
-            <CustomHead title="L'évènement | Blood Run"/>
+            <CustomHead title="The Blood Run | L'évènement"/>
             <Navbar/>
             <div className="home-page">
                 <Hero image="/bghero.jpg"/>
