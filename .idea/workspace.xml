@@ -4,12 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f4e0fbcf-ca93-4080-9c8a-d185ffa2c93a" name="Changes" comment="contact bug 2">
+    <list default="true" id="f4e0fbcf-ca93-4080-9c8a-d185ffa2c93a" name="Changes" comment="reglages bugs animation + liens">
+      <change afterPath="$PROJECT_DIR$/pages/components/Sections/Banner.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/components/Sections/Hero.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/components/Sections/IconFeatures.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/components/Sections/MapComponent.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/components/Sections/MediaFeature.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/components/Sections/OrganizationTeam.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/components/Sections/SectionTitle.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/components/Navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/components/Navbar.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/contact.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/contact.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/components/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/components/Sections/Footer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/components/Navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/components/Sections/Navbar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/event.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/event.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/event.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/event.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/home.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +32,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
+        <option value="TypeScript JSX File" />
       </list>
     </option>
   </component>
@@ -33,7 +43,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2SvvJb5sCSj91rlC4URol3fpHsx" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -55,6 +67,11 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="\\wsl$\Debian\home\ayrick\site-don-du-sang\pages\components\Sections" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -66,7 +83,7 @@
       <workItem from="1690039800379" duration="145000" />
       <workItem from="1690039973724" duration="1473000" />
       <workItem from="1690041471975" duration="188000" />
-      <workItem from="1690041689133" duration="18517000" />
+      <workItem from="1690041689133" duration="34275000" />
     </task>
     <task id="LOCAL-00001" summary="footer responsive">
       <created>1690213519267</created>
@@ -159,7 +176,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690231252633</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="reglages bugs animation + liens">
+      <created>1690303436395</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1690303436395</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -190,7 +214,8 @@
     <MESSAGE value="contact final ave env local (mauvaise adresse)" />
     <MESSAGE value="contact bug" />
     <MESSAGE value="contact bug 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="contact bug 2" />
+    <MESSAGE value="reglages bugs animation + liens" />
+    <option name="LAST_COMMIT_MESSAGE" value="reglages bugs animation + liens" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -7,7 +7,7 @@
     overflow: hidden;
 }
 
-.affiche-event{
+.doubleImage{
 
     gap: 430px;
     height: 580px;
@@ -241,7 +241,7 @@
 
 
 @media screen and (max-width: 1200px) {
-    .affiche-event{
+    .doubleImage{
         height: fit-content;
         gap : 40px;
     }
