@@ -15,9 +15,9 @@ const HomePage: React.FC = () => {
                 <CustomHead title="The Blood Run | Accueil"/>
                 <Navbar/>
                 <div className="home-page">
-                    <Hero image="/bghero.jpg"/>
+                    <Hero image="/bghero.jpg" alt="The Blood Run 2023 départ handisport"/>
                     <SectionTitle
-                        imgSrc="/logoBloodRun.png"
+                        imgSrc="/logoBloodRun.png" alt={"The Blood Run 2023 logo"}
                         paragraphText={[
                             "La course annuelle pour promouvoir le don du sang.",
                             <br/>,
@@ -34,6 +34,7 @@ const HomePage: React.FC = () => {
 
                 <MediaFeature
                     images={["/winimg.png"]}
+                    alt="The Blood Run Gagnants"
                     overlineText="3 septembre 2023"
                     headlineText="5ème édition"
                     text={["La grande course de la rentrée revient avec l'ambition de rassembler le plus grand monde possible.",
@@ -47,6 +48,7 @@ const HomePage: React.FC = () => {
 
                 <MediaFeature
                     images={["/benevoles.png"]}
+                    alt="The Blood Run Bénévoles et aide"
                     overlineText="Une autre façon de participer"
                     headlineText="Devenez bénévoles"
                     text={["Afin d’assurer une organisation sans failles, nous avons besoin de 100 bénévoles.",
@@ -60,6 +62,7 @@ const HomePage: React.FC = () => {
 
                 <Banner
                     image="/bgbanner.jpg"
+                    alt="The Blood Run 2023 coureur"
                     overlineText="Blood run 2023"
                     headlineText="prêts, feu, partez"
                     text="N’attendez plus pour vous inscrire à la Blood Run 2023 !"

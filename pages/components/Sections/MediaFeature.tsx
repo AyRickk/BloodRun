@@ -13,6 +13,7 @@ interface Props {
     variant?: 'doubleImage' | 'imageRight' | 'imageLeft';
     backgroundColor?: string;
     hasSeparator?: boolean;
+    alt?: string;
 }
 
 const MediaFeature: React.FC<Props> = ({
@@ -25,7 +26,8 @@ const MediaFeature: React.FC<Props> = ({
                                            buttonHref,
                                            variant,
                                            backgroundColor,
-                                           hasSeparator
+                                           hasSeparator,
+                                           alt
                                        }) => {
     const isDoubleImage = variant === 'doubleImage';
     const isImageRight = variant === 'imageRight';
@@ -37,12 +39,13 @@ const MediaFeature: React.FC<Props> = ({
             {isDoubleImage ? (
                 images?.map((image, index) => (
                     <img key={index} className={`affiche ${index === 0 ? 'afficheRecto2023' : 'afficheVerso2023'}`}
-                         src={image}/>
+                         src={image}
+                         alt={alt}/>
                 ))
             ) : (
                 <>
                     {!isImageRight && (
-                        <img className="image" src={images ? images[0] : ""}/>
+                        <img className="image" src={images ? images[0] : ""} alt={alt}/>
                     )}
                     <div className="H2-preset" style={{gap: checks || buttonHref && buttonText ? '15px' : '0'}}>
                         <div className="H2-preset-text">
@@ -68,7 +71,7 @@ const MediaFeature: React.FC<Props> = ({
                         )}
                     </div>
                     {isImageRight && (
-                        <img className="image" src={images ? images[0] : ""}/>
+                        <img className="image" src={images ? images[0] : ""} alt={alt}/>
                     )}
                     {hasSeparator && <div className="line"></div>}
                 </>

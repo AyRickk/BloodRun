@@ -9,6 +9,7 @@ interface SectionTitleProps {
     buttonText?: string;
     buttonHref?: string;
     type?: string;
+    alt?: string;
 }
 
 const SectionTitle: React.FC<SectionTitleProps> = ({
@@ -18,13 +19,14 @@ const SectionTitle: React.FC<SectionTitleProps> = ({
                                                        imgSrc,
                                                        buttonText,
                                                        buttonHref,
-                                                       type
+                                                       type,
+                                                       alt
                                                    }) => {
 
     return (
         <div className={`H1-preset ${type}`}>
             <div className="H1-preset-text">
-                {imgSrc && <img className="brlogo" src={imgSrc}/>}
+                {imgSrc && <img className="brlogo" src={imgSrc} alt={alt}/>}
                 {(overlineText || headlineText) && (
                     <div className="header-group">
                         {overlineText && <div className="overline">{overlineText}</div>}

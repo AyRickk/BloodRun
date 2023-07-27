@@ -54,7 +54,7 @@ const ContactPage: React.FC = () => {
 
     return (
         <>
-            <CustomHead title="The Blood Run | Contact "/>
+            <CustomHead title="The Blood Run | Nous contacter "/>
             <Navbar/>
             <br/>
             <br/>

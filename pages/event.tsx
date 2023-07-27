@@ -49,7 +49,7 @@ const EventPage: React.FC = () => {
             <CustomHead title="The Blood Run | L'évènement"/>
             <Navbar/>
             <div className="home-page">
-                <Hero image="/bghero.jpg"/>
+                <Hero image="/bghero.jpg" alt="The Blood Run 2023 départ handisport"/>
                 <SectionTitle
                     overlineText="Blood run"
                     headlineText="L’évènement"
@@ -63,12 +63,14 @@ const EventPage: React.FC = () => {
             </div>
             <MediaFeature
                 images={['/afficheRecto2023.jpg', '/afficheVerso2023.jpg']}
+                alt='affiches The Blood Run 2023 Sollies Pont'
                 variant='doubleImage'
                 backgroundColor='linear-gradient(180deg, rgba(242, 242, 242, 1) 0%, rgba(255, 255, 255, 1) 100%)'
             />
 
             <MediaFeature
                 images={['/handiStart.png']}
+                alt='The Blood Run départ handisport'
                 headlineText='Le projet'
                 text={[
                     "Une course organisée en partenariat avec Handibou et l'AVAC club d'athlétisme de la Vallée du Gapeau.",
@@ -83,6 +85,7 @@ const EventPage: React.FC = () => {
 
             <MediaFeature
                 images={['/commercants.png']}
+                alt='The Blood Run commerçants Sollies Pont'
                 headlineText='Notre objectif'
                 text={[
                     "Mobilisés derrière la cause du Don de Sang, nous retrouvons les commerçants, les producteurs du village et les entreprises locales dans la continuité de la dynamique de la Fête de la Figue.",
@@ -100,6 +103,7 @@ const EventPage: React.FC = () => {
             />
             <MediaFeature
                 images={['/croixRouge.png']}
+                alt='The Blood Run croix rouge et sponsors'
                 headlineText='quelques chiffres'
                 checks={[
                     '7 membres de l’organisation',
@@ -116,6 +120,7 @@ const EventPage: React.FC = () => {
             <OrganizationTeam team={team}/>
             <Banner
                 image="/bgbanner.jpg"
+                alt="The Blood Run 2023 coureur"
                 overlineText="Blood run 2023"
                 headlineText="TOUS EN ROUGE !"
                 text="N’oubliez pas : Je marche, je cours et je roule avec un tee shirt rouge."

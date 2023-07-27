@@ -20,7 +20,7 @@ const Navbar = () => {
             <nav className="nav">
                 <div className="nav__data">
                     <a href="/" className="logo">
-                        <img src="logo-ddn-1.png"/>
+                        <img src="logo-ddn-1.png" alt="The Blood Run Association donneurs de sang la vallée du gapeau"/>
                         <div className="logo-text">
                             Donneurs de sang<br/>Vallée du gapeau
                         </div>

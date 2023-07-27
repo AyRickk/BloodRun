@@ -29,7 +29,7 @@ const IconFeatures: React.FC<IconFeaturesProps> = ({ unit, backgroundColor }) =>
 
             <div className="handi">
                 <div className="wheelchair">
-                    <img src="/wheelchairIcon.png"/>
+                    <img src="/wheelchairIcon.png" alt="course handisport blood run"/>
                 </div>
                 <div className="text">
                     <div className="name">Handi</div>
@@ -38,7 +38,7 @@ const IconFeatures: React.FC<IconFeaturesProps> = ({ unit, backgroundColor }) =>
             </div>
 
             <div className="running">
-                <img className="runner" src="/runningIcon.png"/>
+                <img className="runner" src="/runningIcon.png" alt="course à pied blood run"/>
                 <div className="text">
                     <div className="name">Course</div>
                     <div className="info">{convertUnit(7.2)} {displayUnit(convertUnit(7.2))}</div>
@@ -46,7 +46,7 @@ const IconFeatures: React.FC<IconFeaturesProps> = ({ unit, backgroundColor }) =>
             </div>
 
             <div className="walk">
-                <img className="walker" src="/walkingIcon.png"/>
+                <img className="walker" src="/walkingIcon.png" alt="marche nordique blood run"/>
                 <div className="text">
                     <div className="name">Marche</div>
                     <div className="info">{convertUnit(7.2)} {displayUnit(convertUnit(7.2))}</div>

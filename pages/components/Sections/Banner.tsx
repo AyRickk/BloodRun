@@ -8,12 +8,13 @@ interface BannerProps {
     text?: string;
     buttonText?: string;
     buttonHref?: string;
+    alt?: string;
 }
 
-const Banner: React.FC<BannerProps> = ({ image, overlineText, headlineText, text, buttonText, buttonHref }) => (
+const Banner: React.FC<BannerProps> = ({image, overlineText, headlineText, text, buttonText, buttonHref, alt}) => (
     <div className="banner">
         <div className="banner-image">
-            <img src={image}/>
+            <img src={image} alt={alt}/>
         </div>
         <div className="H1-preset-middle">
             <div className="H1-preset-text-middle">
