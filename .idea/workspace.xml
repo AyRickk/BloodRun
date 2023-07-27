@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f4e0fbcf-ca93-4080-9c8a-d185ffa2c93a" name="Changes" comment="bug 5">
-      <change afterPath="$PROJECT_DIR$/pages/components/Sections/InstitutionSection.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/sponsors.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/institutions.css" afterDir="false" />
+    <list default="true" id="f4e0fbcf-ca93-4080-9c8a-d185ffa2c93a" name="Changes" comment="bug 1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/components/Sections/Navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/components/Sections/Navbar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/components/CustomHead.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/components/CustomHead.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -233,7 +230,28 @@
       <option name="project" value="LOCAL" />
       <updated>1690406154141</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="sponsors">
+      <created>1690490493771</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1690490493771</updated>
+    </task>
+    <task id="LOCAL-00024" summary="bug 1">
+      <created>1690490668141</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1690490668141</updated>
+    </task>
+    <task id="LOCAL-00025" summary="bug 1">
+      <created>1690490688260</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1690490688260</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -272,7 +290,9 @@
     <MESSAGE value="bug 3" />
     <MESSAGE value="bug 4" />
     <MESSAGE value="bug 5" />
-    <option name="LAST_COMMIT_MESSAGE" value="bug 5" />
+    <MESSAGE value="sponsors" />
+    <MESSAGE value="bug 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="bug 1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
