@@ -5,15 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f4e0fbcf-ca93-4080-9c8a-d185ffa2c93a" name="Changes" comment="bug 5">
+      <change afterPath="$PROJECT_DIR$/pages/components/Sections/InstitutionSection.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/sponsors.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/institutions.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/components/Sections/Banner.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/components/Sections/Banner.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/components/Sections/Hero.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/components/Sections/Hero.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/components/Sections/IconFeatures.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/components/Sections/IconFeatures.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/components/Sections/MediaFeature.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/components/Sections/MediaFeature.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/components/Sections/Navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/components/Sections/Navbar.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/components/Sections/SectionTitle.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/components/Sections/SectionTitle.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/event.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/event.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,8 +22,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="TypeScript JSX File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -51,7 +47,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "//wsl$/Debian/home/ayrick/site-don-du-sang",
+    "last_opened_file_path": "//wsl$/Debian/home/ayrick/site-don-du-sang/pages",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -63,6 +59,9 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="\\wsl$\Debian\home\ayrick\site-don-du-sang\pages" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="\\wsl$\Debian\home\ayrick\site-don-du-sang\pages\components\Sections" />
     </key>

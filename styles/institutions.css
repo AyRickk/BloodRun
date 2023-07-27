@@ -1,0 +1,38 @@
+.institutions-section {
+    display: flex;
+    padding: 100px 30px;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+    align-self: stretch;
+}
+
+.institutions-title {
+    color: #000;
+    text-align: center;
+    font-family: Barlow, sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    text-transform: uppercase;
+}
+
+.institutions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 100px 50px;
+    align-self: stretch;
+    flex-wrap: wrap;
+}
+
+.institutions img {
+    width: 200px;
+    height: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+

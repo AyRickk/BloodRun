@@ -21,7 +21,7 @@ const HomePage: React.FC = () => {
                         paragraphText={[
                             "La course annuelle pour promouvoir le don du sang.",
                             <br/>,
-                            "Prochaine édition le 03 septembre 2023 !",
+                            "The Blood Run 2023 le 03 septembre prochain à Sollies Pont !",
                         ]}
 
                         buttonText=" En savoir plus"
