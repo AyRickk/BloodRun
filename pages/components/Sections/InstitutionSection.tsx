@@ -9,7 +9,7 @@ interface InstitutionProps {
     backgroundColor?: string;
 }
 
-const InstitutionSection: React.FC<InstitutionProps> = ({ institutions, title, backgroundColor }) => (
+const InstitutionSection: React.FC<InstitutionProps> = ({ institutions = [], title, backgroundColor }) => (
     <div className="institutions-section" style={{ background: backgroundColor }}>
         <div className="institutions-title">{title}</div>
 
@@ -24,5 +24,9 @@ const InstitutionSection: React.FC<InstitutionProps> = ({ institutions, title, b
         </div>
     </div>
 );
+
+InstitutionSection.defaultProps = {
+    institutions: []
+};
 
 export default InstitutionSection;
