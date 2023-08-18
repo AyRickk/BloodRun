@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f4e0fbcf-ca93-4080-9c8a-d185ffa2c93a" name="Changes" comment="bug 1">
+    <list default="true" id="f4e0fbcf-ca93-4080-9c8a-d185ffa2c93a" name="Changes" comment="icon">
       <change beforePath="$PROJECT_DIR$/pages/components/CustomHead.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/components/CustomHead.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/contact.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/contact.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/icon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -254,7 +250,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690490688260</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="icon">
+      <created>1692362526793</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1692362526793</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -295,7 +298,8 @@
     <MESSAGE value="bug 5" />
     <MESSAGE value="sponsors" />
     <MESSAGE value="bug 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="bug 1" />
+    <MESSAGE value="icon" />
+    <option name="LAST_COMMIT_MESSAGE" value="icon" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

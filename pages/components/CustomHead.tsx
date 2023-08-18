@@ -19,7 +19,7 @@ const CustomHead: React.FC<CustomHeadProps> = ({
             <meta name="description" content={description}/>
             <meta name="keywords" content={keywords}/>
             <link rel="canonical" href={url}/>
-            {/*<link rel="icon" href="/icon.ico"/>*/}
+            <link rel="icon" href="/favicon.ico"/>
             <meta name="viewport" content="width=device-width, initial-scale=1"/>
             <meta property="og:title" content={title}/>
             <meta property="og:description" content={description}/>
