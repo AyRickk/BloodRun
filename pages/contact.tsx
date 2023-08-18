@@ -80,7 +80,7 @@ const ContactPage: React.FC = () => {
                     <div className="contact-box">
                         <h2 className="box-title"><i className="box-icon fas fa-envelope"></i> Email</h2>
                         <div className="box-content">
-                            donneur2sang.lvdg@gmail.com
+                            francois.roche17@orange.fr
                         </div>
                     </div>
                     <div className="contact-box">
