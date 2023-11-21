@@ -4,22 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f4e0fbcf-ca93-4080-9c8a-d185ffa2c93a" name="Changes" comment="icon">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/_document.tsx" afterDir="false" />
+    <list default="true" id="f4e0fbcf-ca93-4080-9c8a-d185ffa2c93a" name="Changes" comment="Debug + Single Page App">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/components/CustomHead.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/components/CustomHead.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/components/Sections/Banner.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/components/Sections/Banner.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/components/Sections/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/components/Sections/Footer.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/components/Sections/MediaFeature.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/components/Sections/MediaFeature.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/components/Sections/Navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/components/Sections/Navbar.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/components/Sections/SectionTitle.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/components/Sections/SectionTitle.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/contact.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/contact.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/event.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/event.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/contact.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/contact.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/navbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/navbar.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +80,7 @@
       <workItem from="1690039973724" duration="1473000" />
       <workItem from="1690041471975" duration="188000" />
       <workItem from="1690041689133" duration="37587000" />
-      <workItem from="1700563936959" duration="5137000" />
+      <workItem from="1700563936959" duration="6530000" />
     </task>
     <task id="LOCAL-00001" summary="footer responsive">
       <created>1690213519267</created>
@@ -277,7 +264,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692362526793</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Debug + Single Page App">
+      <option name="closed" value="true" />
+      <created>1700573248744</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1700573248744</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -319,7 +314,8 @@
     <MESSAGE value="sponsors" />
     <MESSAGE value="bug 1" />
     <MESSAGE value="icon" />
-    <option name="LAST_COMMIT_MESSAGE" value="icon" />
+    <MESSAGE value="Debug + Single Page App" />
+    <option name="LAST_COMMIT_MESSAGE" value="Debug + Single Page App" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
