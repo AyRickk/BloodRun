@@ -1,4 +1,5 @@
 import React, {useState} from 'react';
+import Link from 'next/link'
 import '../../../styles/navbar.css';
 
 const Navbar = () => {
@@ -19,12 +20,12 @@ const Navbar = () => {
         <header className="header">
             <nav className="nav">
                 <div className="nav__data">
-                    <a href="/" className="logo">
+                    <Link href="/" className="logo">
                         <img src="logo-ddn-1.png" alt="The Blood Run Association donneurs de sang la vallée du gapeau"/>
                         <div className="logo-text">
                             Donneurs de sang<br/>Vallée du gapeau
                         </div>
-                    </a>
+                    </Link>
 
                     <div className="nav__toggle" id="nav-toggle" onClick={toggleMenu}>
                         <i className={`ri-menu-line nav__burger ${showIcon ? 'show-icon' : 'hide-icon'}`}></i>
@@ -34,10 +35,10 @@ const Navbar = () => {
 
                 <div className={`nav__menu ${showMenu ? 'show-menu' : ''}`} id="nav-menu">
                     <ul className="nav__list">
-                        <li className="nav__link"><a href="/"><span>Accueil</span></a></li>
-                        <li className="nav__link"><a href="/event"><span>L'évènement</span></a></li>
-                        <li className="nav__link"><a href="/sponsors"><span>Partenaires</span></a></li>
-                        <li className="nav__link"><a href="/contact"><span>Contact</span></a></li>
+                        <li className="nav__link"><Link href="/"><span>Accueil</span></Link></li>
+                        <li className="nav__link"><Link href="/event"><span>L'évènement</span></Link></li>
+                        <li className="nav__link"><Link href="/sponsors"><span>Partenaires</span></Link></li>
+                        <li className="nav__link"><Link href="/contact"><span>Contact</span></Link></li>
 
                         {/* ... the rest of your links and dropdowns ... */}
                     </ul>

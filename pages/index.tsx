@@ -17,14 +17,13 @@ const HomePage: React.FC = () => {
                 <div className="home-page">
                     <Hero image="/bghero.jpg" alt="The Blood Run 2023 départ handisport"/>
                     <SectionTitle
-                        imgSrc="/logoBloodRun.png" alt={"The Blood Run 2023 logo"}
+                        imgSrc="/logoBloodRun.png" alt="The Blood Run 2023 logo"
                         paragraphText={[
-                            "La course annuelle pour promouvoir le don du sang.",
-                            <br/>,
-                            "The Blood Run 2023 le 03 septembre prochain à Sollies Pont !",
+                            <span key="line1">La course annuelle pour promouvoir le don du sang.</span>,
+                            <br key="break"/>,
+                            <span key="line2">The Blood Run 2023 le 03 septembre prochain à Sollies Pont !</span>
                         ]}
-
-                        buttonText=" En savoir plus"
+                        buttonText="En savoir plus"
                         buttonHref="/event"
                     />
 

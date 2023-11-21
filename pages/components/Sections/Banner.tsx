@@ -1,5 +1,6 @@
 import React from 'react';
 import Chevron from '../Chevron';
+import Link from "next/link";
 
 interface BannerProps {
     image?: string;
@@ -7,7 +8,7 @@ interface BannerProps {
     headlineText?: string;
     text?: string;
     buttonText?: string;
-    buttonHref?: string;
+    buttonHref: string;
     alt?: string;
 }
 
@@ -24,10 +25,10 @@ const Banner: React.FC<BannerProps> = ({image, overlineText, headlineText, text,
                 </div>
                 <div className="paragraph">{text}</div>
             </div>
-            <a href={buttonHref} className="button">
+            <Link href={buttonHref} className="button">
                 <div className="button-text">{buttonText}</div>
                 <Chevron/>
-            </a>
+            </Link>
         </div>
     </div>
 );

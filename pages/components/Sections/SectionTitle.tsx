@@ -1,5 +1,6 @@
 import React from 'react';
 import Chevron from '../Chevron';
+import Link from "next/link";
 
 interface SectionTitleProps {
     overlineText?: string;
@@ -36,10 +37,10 @@ const SectionTitle: React.FC<SectionTitleProps> = ({
                 <div className="paragraph">{paragraphText}</div>
             </div>
             {buttonText && buttonHref && (
-                <a href={buttonHref} className="button">
+                <Link href={buttonHref} className="button">
                     <div className="button-text">{buttonText}</div>
                     <Chevron/>
-                </a>
+                </Link>
             )}
         </div>
     );

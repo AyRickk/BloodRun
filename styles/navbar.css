@@ -34,6 +34,12 @@
     }
 }
 
+@media screen and (max-width: 1024px) {
+
+    .nav__data {
+        margin-left: 0;
+    }
+}
 /*=============== BASE ===============*/
 
 * {
@@ -296,6 +302,15 @@ a {
     .nav__link {
         padding-inline: 1rem;
     }
+
+    .nav{
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+
+    .nav__data{
+        margin-left: 0;
+    }
 }
 
 /* For large devices */
@@ -342,7 +357,7 @@ a {
 }
 
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 1200px) {
     .nav{
         margin-right: 5%;
         margin-left: 5%;

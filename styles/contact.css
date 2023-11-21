@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 
-body{
+.contact-body{
     background-color: #f2f2f2;
     min-height: 100vh;
     display: flex;
@@ -15,7 +15,7 @@ body{
 
 .contact-page{
     width: 100%;
-    max-width: 1200px;
+    max-width: 1000px;
     margin: auto;
     padding: 0 20px;
 }
@@ -224,6 +224,10 @@ input::placeholder{
 
     .nameInput{
         border-radius: 10px 10px 0 0;
+    }
+
+    .contact-page{
+        margin-top:100px;
     }
 
 

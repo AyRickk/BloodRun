@@ -1,7 +1,7 @@
 import React, {FormEvent, useEffect} from 'react';
 import {useState} from 'react';
 import isEmail from 'validator/lib/isEmail';
-import { LineWave } from  'react-loader-spinner'
+import {LineWave} from 'react-loader-spinner'
 import '../styles/contact.css';
 
 import Navbar from './components/Sections/Navbar';
@@ -52,55 +52,54 @@ const ContactPage: React.FC = () => {
     }
 
 
-    return (
-        <>
-            <CustomHead title="The Blood Run | Nous contacter "/>
-            <Navbar/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
+    return (<>
+            <div className="contact-body">
+                <CustomHead title="The Blood Run | Nous contacter "/>
+                <Navbar/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
 
-            <div className="contact-page">
-                <h1 className="contact-page-title">
-                    <div className="back-title">Contact</div>
-                    <div className="front-title">Nous <span>contacter</span></div>
-                </h1>
+                <div className="contact-page">
+                    <h1 className="contact-page-title">
+                        <div className="back-title">Contact</div>
+                        <div className="front-title">Nous <span>contacter</span></div>
+                    </h1>
 
-                <div className="contact-boxes">
-                    <div className="contact-box">
-                        <h2 className="box-title"><i className="box-icon fas fa-location-pin"></i> Localisation</h2>
-                        <div className="box-content">
-                            Solliès-pont <br/>
-                            83210
+                    <div className="contact-boxes">
+                        <div className="contact-box">
+                            <h2 className="box-title"><i className="box-icon fas fa-location-pin"></i> Localisation</h2>
+                            <div className="box-content">
+                                Solliès-pont <br/>
+                                83210
+                            </div>
+                        </div>
+                        <div className="contact-box">
+                            <h2 className="box-title"><i className="box-icon fas fa-envelope"></i> Email</h2>
+                            <div className="box-content">
+                                francois.roche17@orange.fr
+                            </div>
+                        </div>
+                        <div className="contact-box">
+                            <h2 className="box-title"><i className="box-icon fa-brands fa-facebook-f"></i> Facebook</h2>
+                            <div className="box-content">
+                                Association Donneurs de Sang <br/>
+                                Vallée du Gapeau
+                            </div>
+                        </div>
+                        <div className="contact-box">
+                            <h2 className="box-title"><i className="box-icon fa-brands fa-instagram"></i> Instagram</h2>
+                            <div className="box-content">
+                                @thebloodrun_83
+                            </div>
                         </div>
                     </div>
-                    <div className="contact-box">
-                        <h2 className="box-title"><i className="box-icon fas fa-envelope"></i> Email</h2>
-                        <div className="box-content">
-                            francois.roche17@orange.fr
-                        </div>
-                    </div>
-                    <div className="contact-box">
-                        <h2 className="box-title"><i className="box-icon fa-brands fa-facebook-f"></i> Facebook</h2>
-                        <div className="box-content">
-                            Association Donneurs de Sang <br/>
-                            Vallée du Gapeau
-                        </div>
-                    </div>
-                    <div className="contact-box">
-                        <h2 className="box-title"><i className="box-icon fa-brands fa-instagram"></i> Instagram</h2>
-                        <div className="box-content">
-                            @thebloodrun_83
-                        </div>
-                    </div>
-                </div>
 
-                {successMessage && <p className="success-message">{successMessage} </p>}
-                {hydrated && (
-                    <form onSubmit={handleSubmit} className="contact-form">
+                    {successMessage && <p className="success-message">{successMessage} </p>}
+                    {hydrated && (<form onSubmit={handleSubmit} className="contact-form">
                         <input type="text" className="nameInput" placeholder="Name" value={name}
                                onChange={e => setName(e.target.value)}/>
                         <input type="email" className="emailInput" placeholder="Email" value={email}
@@ -110,8 +109,7 @@ const ContactPage: React.FC = () => {
                         <textarea className="msgArea" placeholder="Your Message" value={message}
                                   onChange={e => setMessage(e.target.value)}></textarea>
                         <input type="submit" className="sendbtn" value="Send Message"/>
-                        {loading && (
-                            <div className="overlay">
+                        {loading && (<div className="overlay">
                                 <LineWave
                                     height="100"
                                     width="100"
@@ -124,13 +122,12 @@ const ContactPage: React.FC = () => {
                                     middleLineColor=""
                                     lastLineColor=""
                                 />
-                            </div>
-                        )}
+                            </div>)}
 
                     </form>)}
+                </div>
             </div>
-        </>
-    );
+        </>);
 }
 
 export default ContactPage;

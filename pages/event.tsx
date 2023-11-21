@@ -54,9 +54,9 @@ const EventPage: React.FC = () => {
                     overlineText="Blood run"
                     headlineText="L’évènement"
                     paragraphText={[
-                        "Une course pédestre qui est différente dans l'esprit de celles que l'on peut faire tous les week-ends.",
-                        <br/>,
-                        "Elle a l'ambition de rassembler le plus grand monde possible, elle est ouverte aux valides, aux handi sports en fauteuils, et cette année, nous espérons accueillir des malvoyants qui courent en binôme avec leur guide."
+                        <span key="line1">Une course pédestre qui est différente dans l'esprit de celles que l'on peut faire tous les week-ends.</span>,
+                        <br key="break"/>,
+                        <span key="line2">Elle a l'ambition de rassembler le plus grand monde possible, elle est ouverte aux valides, aux handi sports en fauteuils, et cette année, nous espérons accueillir des malvoyants qui courent en binôme avec leur guide.</span>
                     ]}
                     type="event"
                 />
@@ -73,10 +73,10 @@ const EventPage: React.FC = () => {
                 alt='The Blood Run départ handisport'
                 headlineText='Le projet'
                 text={[
-                    "Une course organisée en partenariat avec Handibou et l'AVAC club d'athlétisme de la Vallée du Gapeau.",
-                    <br/>,
-                    <br/>,
-                    "L'objectif est de réunir un large public afin de sensibiliser autour du don du sang, du handicap et afin de promouvoir la santé à travers le sport."
+                    <span key="line1">Une course organisée en partenariat avec Handibou et l'AVAC club d'athlétisme de la Vallée du Gapeau.</span>,
+                    <br key="break1"/>,
+                    <br key="break2"/>,
+                    <span key="line2">L'objectif est de réunir un large public afin de sensibiliser autour du don du sang, du handicap et afin de promouvoir la santé à travers le sport.</span>
                 ]}
                 variant='imageLeft'
                 backgroundColor='linear-gradient(180deg, rgba(242, 242, 242, 1) 0%, rgba(255, 255, 255, 1) 100%)'
@@ -88,10 +88,11 @@ const EventPage: React.FC = () => {
                 alt='The Blood Run commerçants Sollies Pont'
                 headlineText='Notre objectif'
                 text={[
-                    "Mobilisés derrière la cause du Don de Sang, nous retrouvons les commerçants, les producteurs du village et les entreprises locales dans la continuité de la dynamique de la Fête de la Figue.",
-                    <br/>,
-                    <br/>,
-                    "Nos premières éditions ont été un succès. nous souhaitons que la course devienne le rendez-vous incontournable de la rentrée !"]}
+                    <span key="line1">Mobilisés derrière la cause du Don de Sang, nous retrouvons les commerçants, les producteurs du village et les entreprises locales dans la continuité de la dynamique de la Fête de la Figue.</span>,
+                    <br key="break1"/>,
+                    <br key="break2"/>,
+                    <span key="line2">Nos premières éditions ont été un succès. nous souhaitons que la course devienne le rendez-vous incontournable de la rentrée !</span>
+                        ]}
                 variant='imageRight'
             />
             <MapComponent
