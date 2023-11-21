@@ -13,7 +13,12 @@ interface BannerProps {
 }
 
 const Banner: React.FC<BannerProps> = ({ image, overlineText, headlineText, text, buttonText, buttonHref, alt }) => {
-    const isInternalLink = buttonHref.startsWith('/');
+
+    let isInternalLink = false;
+    if (buttonHref != null) {
+        isInternalLink = buttonHref.startsWith('/');
+    }
+
 
     const LinkButton = isInternalLink ? (
         <Link href={buttonHref}>
