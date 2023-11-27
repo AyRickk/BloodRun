@@ -8,7 +8,6 @@ import Hero from './components/Sections/Hero';
 import Banner from './components/Sections/Banner';
 import IconFeatures from './components/Sections/IconFeatures';
 import MediaFeature from './components/Sections/MediaFeature';
-import {KEYS} from "eslint-visitor-keys";
 
 const HomePage: React.FC = () => {
         return (
