@@ -1,7 +1,7 @@
 import React from 'react';
-import Check from '../Check';
-import Chevron from '../Chevron';
 import Link from "next/link";
+import Chevron from "../Chevron";
+import Check from "../Check";
 
 interface Props {
     images?: string[];
@@ -25,48 +25,74 @@ const MediaFeature: React.FC<Props> = ({
                                            checks,
                                            buttonText,
                                            buttonHref,
-                                           variant,
+                                           variant = 'imageLeft', // valeur par défaut
                                            backgroundColor,
                                            hasSeparator,
                                            alt
                                        }) => {
+    const isImageOnRight = variant === 'imageRight';
     const isDoubleImage = variant === 'doubleImage';
-    const isImageRight = variant === 'imageRight';
-    const hasChecks = checks && checks.length > 0;
 
-    return (<div className={`media-feature ${variant}`} id={`media-feature-${isImageRight ? 1 : 2}`}
-                 style={{background: backgroundColor}}>
-            {isDoubleImage ? (images?.map((image, index) => (
-                    <img key={image} className={`affiche ${index === 0 ? 'afficheRecto2023' : 'afficheVerso2023'}`}
-                         src={image} alt={alt}/>))) : (<>
-                    {!isImageRight && (<img className="image" src={images ? images[0] : ""} alt={alt}/>)}
-                    <div className="H2-preset" style={{gap: checks || buttonHref && buttonText ? '15px' : '0'}}>
-                        <div className="H2-preset-text">
-                            <div className="header-group">
-                                {overlineText && <div className="overline">{overlineText}</div>}
-                                <div className="headline">{headlineText}</div>
-                            </div>
-                            {!hasChecks && <div className="paragraph">{text}</div>}
-                        </div>
-                        {hasChecks && <div className="check-list">
-                            {checks?.map((check) => (
-                                <div key={check} className="check">
-                                    <Check/>
-                                    <div className="check-text">{check}</div>
-                                </div>))}
-                        </div>}
-                        {buttonText && buttonHref && (<Link href={buttonHref} className="button">
-                                <div className="button-text">{buttonText}</div>
-                                <Chevron/>
-                            </Link>)}
-                    </div>
-                    {isImageRight && (<img className="image" src={images ? images[0] : ""} alt={alt}/>)}
-                    {hasSeparator && <div className="line"></div>}
-                </>)}
+    return (
+        <div className={`media-feature ${variant}`} style={{background: backgroundColor}}>
+            {isDoubleImage && renderDoubleImages()}
+            {!isDoubleImage && (
+                <>
+                    {!isImageOnRight && renderSingleImage()}
+                    {renderTextSection()}
+                    {isImageOnRight && renderSingleImage()}
+                </>
+            )}
+            {hasSeparator && <div className="line"></div>}
         </div>
-
-
     );
+
+    function renderSingleImage() {
+        return images && images.length > 0 && (
+            <img className="image" src={images[0]} alt={alt}/>
+        );
+    }
+
+    function renderDoubleImages() {
+        return (
+            <div className="double-images-container">
+                {images?.map((image, index) => (
+                    <img key={index} className={`affiche ${index === 0 ? 'afficheRecto2023' : 'afficheVerso2023'}`}
+                         src={image} alt={alt}/>
+                ))}
+            </div>
+        );
+    }
+
+    function renderTextSection() {
+        return (
+            <div className="H2-preset" style={{gap: checks || (buttonText && buttonHref) ? '15px' : '0'}}>
+                <div className="H2-preset-text">
+                    <div className="header-group">
+                        {overlineText && <div className="overline">{overlineText}</div>}
+                        {headlineText && <div className="headline">{headlineText}</div>}
+                    </div>
+                    {!checks && <div className="paragraph">{text}</div>}
+                </div>
+                {checks && <div className="check-list">
+                    {checks.map((check, index) => (
+                        <div key={index} className="check">
+                            <Check/>
+                            <div className="check-text">{check}</div>
+                        </div>
+                    ))}
+                </div>}
+                {buttonText && buttonHref && (
+                    <Link href={buttonHref}>
+                        <div className="button">
+                            <span className="button-text">{buttonText}</span>
+                            <Chevron/>
+                        </div>
+                    </Link>
+                )}
+            </div>
+        );
+    }
 };
 
 export default MediaFeature;

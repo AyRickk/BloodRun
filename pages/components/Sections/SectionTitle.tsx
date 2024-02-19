@@ -25,16 +25,16 @@ const SectionTitle: React.FC<SectionTitleProps> = ({
                                                    }) => {
 
     return (
-        <div className={`H1-preset ${type}`}>
+        <div className={`H1-preset ${type || ''}`}>
             <div className="H1-preset-text">
-                {imgSrc && <img className="brlogo" src={imgSrc} alt={alt}/>}
+                {imgSrc && <img className="brlogo" src={imgSrc} alt={alt || 'Image'}/>}
                 {(overlineText || headlineText) && (
                     <div className="header-group">
                         {overlineText && <div className="overline">{overlineText}</div>}
-                        {headlineText && <div className="headline">{headlineText}</div>}
+                        {headlineText && <h1 className="headline">{headlineText}</h1>}
                     </div>
                 )}
-                <div className="paragraph">{paragraphText}</div>
+                {paragraphText && <div className="paragraph">{paragraphText}</div>}
             </div>
             {buttonText && buttonHref && (
                 <Link href={buttonHref} className="button">

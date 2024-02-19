@@ -125,8 +125,8 @@ const EventPage: React.FC = () => {
                 overlineText="Blood run 2023"
                 headlineText="TOUS EN ROUGE !"
                 text="N’oubliez pas : Je marche, je cours et je roule avec un tee shirt rouge."
-                buttonText="S’inscrire"
-                buttonHref="https://sportips.fr/BLOOD23/"/>
+                buttonText="Galeries photos"
+                buttonHref="https://galerie.bloodrun.fr"/>
             <Footer/>
         </>
     );

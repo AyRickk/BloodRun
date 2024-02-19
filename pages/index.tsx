@@ -15,13 +15,13 @@ const HomePage: React.FC = () => {
                 <CustomHead title="The Blood Run | Accueil"/>
                 <Navbar/>
                 <div className="home-page">
-                    <Hero image="/bghero.jpg" alt="The Blood Run 2023 départ handisport"/>
+                    <Hero image="/bghero.jpg" alt="The Blood Run 2024 départ handisport"/>
                     <SectionTitle
-                        imgSrc="/logoBloodRun.png" alt="The Blood Run 2023 logo"
+                        imgSrc="/logoBloodRun.png" alt="The Blood Run 2024 logo"
                         paragraphText={[
                             <span key="line1">La course annuelle pour promouvoir le don du sang.</span>,
                             <br key="break"/>,
-                            <span key="line2">The Blood Run 2023 le 03 septembre prochain à Sollies Pont !</span>
+                            <span key="line2">The Blood Run 2024 le 08 septembre prochain à Sollies Pont !</span>
                         ]}
                         buttonText="En savoir plus"
                         buttonHref="/event"
@@ -34,14 +34,14 @@ const HomePage: React.FC = () => {
                 <MediaFeature
                     images={["/winimg.png"]}
                     alt="The Blood Run Gagnants"
-                    overlineText="3 septembre 2023"
-                    headlineText="5ème édition"
+                    overlineText="8 septembre 2024"
+                    headlineText="6ème édition"
                     text={["La grande course de la rentrée revient avec l'ambition de rassembler le plus grand monde possible.",
                         <br key="break"/>,
-                        "Cette année, nous espérons accueillir des malvoyants qui courent en binôme avec leur guide !"
+                        "Les inscriptions ouvriront bientôt. Restez connectés ! En attendant, découvrez les photos de l'édition précédente."
                     ]}
-                    buttonText="s’inscrire"
-                    buttonHref="https://sportips.fr/BLOOD23/"
+                    buttonText="La Galerie"
+                    buttonHref="https://galerie.bloodrun.fr"
                     variant="imageLeft"
                 />
 
@@ -61,12 +61,12 @@ const HomePage: React.FC = () => {
 
                 <Banner
                     image="/bgbanner.jpg"
-                    alt="The Blood Run 2023 coureur"
-                    overlineText="Blood run 2023"
+                    alt="The Blood Run 2024 coureur"
+                    overlineText="Blood run 2024"
                     headlineText="prêts, feu, partez"
-                    text="N’attendez plus pour vous inscrire à la Blood Run 2023 !"
-                    buttonText="S’inscrire"
-                    buttonHref="https://sportips.fr/BLOOD23/"
+                    text="Les inscriptions à la Blood Run 2024 ouvriront bientôt !"
+                    buttonText="Galerie photos"
+                    buttonHref="https://galerie.bloodrun.fr"
                 />
 
                 <Footer/>
