@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f4e0fbcf-ca93-4080-9c8a-d185ffa2c93a" name="Changes" comment="Maj 2024 without new logo" />
+    <list default="true" id="f4e0fbcf-ca93-4080-9c8a-d185ffa2c93a" name="Changes" comment="speed insight">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.tsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -93,7 +96,7 @@
       <workItem from="1708116406251" duration="11000" />
       <workItem from="1708254108308" duration="4590000" />
       <workItem from="1708330270535" duration="428000" />
-      <workItem from="1708334673680" duration="514000" />
+      <workItem from="1708334673680" duration="1029000" />
     </task>
     <task id="LOCAL-00001" summary="footer responsive">
       <created>1690213519267</created>
@@ -325,7 +328,23 @@
       <option name="project" value="LOCAL" />
       <updated>1708334700381</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="speed insight + audit">
+      <option name="closed" value="true" />
+      <created>1708335380823</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1708335380824</updated>
+    </task>
+    <task id="LOCAL-00034" summary="speed insight">
+      <option name="closed" value="true" />
+      <created>1708335541364</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1708335541364</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -343,8 +362,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="contact responsive" />
-    <MESSAGE value="contact responsive 2" />
     <MESSAGE value="contact responsive 3" />
     <MESSAGE value="contact responsive 4" />
     <MESSAGE value="contact final (mauvaise adresse)" />
@@ -368,7 +385,9 @@
     <MESSAGE value="Debug br keys" />
     <MESSAGE value="Debug br keys 2" />
     <MESSAGE value="Maj 2024 without new logo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Maj 2024 without new logo" />
+    <MESSAGE value="speed insight + audit" />
+    <MESSAGE value="speed insight" />
+    <option name="LAST_COMMIT_MESSAGE" value="speed insight" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
