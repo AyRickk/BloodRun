@@ -8,12 +8,18 @@
 }
 
 .doubleImage{
-
-    gap: 430px;
     height: 580px;
     position: relative;
     overflow: hidden;
 
+}
+
+.double-images-container {
+    display: flex;
+    flex-direction: row;
+    gap: 430px;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -241,12 +247,21 @@
 
 
 @media screen and (max-width: 1200px) {
-    .doubleImage{
-        height: fit-content;
-        gap : 40px;
+    .double-images-container {
+        gap: 50px;
     }
 }
 
+@media screen and (max-width: 760px) {
+    .double-images-container {
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .doubleImage {
+        height: fit-content;
+    }
+}
 
 
 

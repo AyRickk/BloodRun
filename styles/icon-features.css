@@ -81,3 +81,16 @@
     position: relative;
     align-self: stretch;
 }
+
+
+@media screen and (max-width: 1200px) {
+    .icon-features {
+        display: flex;
+        padding: 40px 0;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        align-self: stretch;
+    }
+}

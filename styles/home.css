@@ -52,7 +52,7 @@
     width: 540px;
     position: absolute;
     left: calc(50% - 555px);
-    top: calc(50% - 194px);
+    top: calc(50% - 100px);
     overflow: hidden;
 }
 
@@ -182,6 +182,8 @@
     position: relative;
     overflow: hidden;
 }
+
+
 
 
 
@@ -372,17 +374,8 @@
     .H1-preset {
         position: absolute;
         left: 88px;
-        top: 135px;
-    }
-
-    .icon-features {
-        display: flex;
-        padding: 40px 0;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 30px;
-        align-self: stretch;
+        /*top: 135px;*/
+        top: calc(50% - 100px);
     }
 
     .media-feature {
@@ -395,9 +388,15 @@
         align-self: stretch;
     }
 
-    #media-feature-2 {
+    .imageLeft {
+        flex-direction: column;
+    }
+
+    .imageRight {
         flex-direction: column-reverse;
     }
+
+
 
 
 }

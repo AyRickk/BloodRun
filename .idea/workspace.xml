@@ -4,9 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f4e0fbcf-ca93-4080-9c8a-d185ffa2c93a" name="Changes" comment="speed insight">
+    <list default="true" id="f4e0fbcf-ca93-4080-9c8a-d185ffa2c93a" name="Changes" comment="speed insight 2">
+      <change afterPath="$PROJECT_DIR$/public/Logo_Text.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/section-title.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/event.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/event.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/home.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/icon-features.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/icon-features.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +25,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="TypeScript JSX File" />
+        <option value="TypeScript File" />
         <option value="CSS File" />
       </list>
     </option>
@@ -50,7 +56,7 @@
     "git-widget-placeholder": "master",
     "javascript.nodejs.core.library.configured.version": "21.0.0",
     "javascript.nodejs.core.library.typings.version": "20.11.19",
-    "last_opened_file_path": "/home/ayrick/WebstormProjects/BloodRun",
+    "last_opened_file_path": "/home/ayrick/WebstormProjects/BloodRun/public",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -96,7 +102,8 @@
       <workItem from="1708116406251" duration="11000" />
       <workItem from="1708254108308" duration="4590000" />
       <workItem from="1708330270535" duration="428000" />
-      <workItem from="1708334673680" duration="1029000" />
+      <workItem from="1708334673680" duration="1257000" />
+      <workItem from="1708521565216" duration="4283000" />
     </task>
     <task id="LOCAL-00001" summary="footer responsive">
       <created>1690213519267</created>
@@ -344,7 +351,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708335541364</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="speed insight 2">
+      <option name="closed" value="true" />
+      <created>1708335708862</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1708335708862</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -362,7 +377,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="contact responsive 3" />
     <MESSAGE value="contact responsive 4" />
     <MESSAGE value="contact final (mauvaise adresse)" />
     <MESSAGE value="contact final ave env local (mauvaise adresse)" />
@@ -387,7 +401,8 @@
     <MESSAGE value="Maj 2024 without new logo" />
     <MESSAGE value="speed insight + audit" />
     <MESSAGE value="speed insight" />
-    <option name="LAST_COMMIT_MESSAGE" value="speed insight" />
+    <MESSAGE value="speed insight 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="speed insight 2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
