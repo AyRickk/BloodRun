@@ -30,12 +30,14 @@ const SponsorsPage: React.FC = () => {
         {src: "./institutions/biocoop.png", alt: "Blood Run Sponsors Biocoop"},
         {src: "./institutions/sportips.png", alt: "Blood Run Sponsors Sportips"},
         {src: "./institutions/intercaves.png", alt: "Blood Run Sponsors Intercaves"},
-        {src: "./institutions/intermarche.png", alt: "Blood Run Sponsors Intermarche"},
+        {src: "./institutions/le_fromage_rit.png", alt: "Blood Run Sponsors Le Fromage Rit"},
+        {src: "./institutions/renault_sanna.png", alt: "Blood Run Sponsors Renault Sanna"},
+        // {src: "./institutions/intermarche.png", alt: "Blood Run Sponsors Intermarche"},
         {src: "./institutions/tdr.png", alt: "Blood Run Sponsors Tdr"},
         {src: "./institutions/faconc.png", alt: "Blood Run Sponsors Façonc"},
-        {src: "./institutions/parthenaise.png", alt: "Blood Run Sponsors Parthenaise"},
+        // {src: "./institutions/parthenaise.png", alt: "Blood Run Sponsors Parthenaise"},
         {src: "./institutions/argos.png", alt: "Blood Run Sponsors Argos"},
-        {src: "./institutions/renault.png", alt: "Blood Run Sponsors Renault"},
+        // {src: "./institutions/renault.png", alt: "Blood Run Sponsors Renault"},
         {src: "./institutions/residencePrivee.png", alt: "Blood Run Sponsors Residence Privee"},
     ];
 

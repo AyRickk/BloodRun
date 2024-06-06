@@ -1,11 +1,8 @@
 * {
     margin: 0;
     padding: 0;
-    /*outline: 1px solid red;*/
     top: 0;
-
 }
-
 
 .home-page {
     display: flex;
@@ -19,25 +16,25 @@
 .hero {
     display: flex;
     flex-direction: row;
-    gap: 10px;
+    gap: 0.625rem;
     align-items: center;
     justify-content: center;
     align-self: stretch;
     flex-shrink: 0;
-    height: 600px;
+    height: 37.5rem;
     position: relative;
 }
 
 .hero-image {
     flex: 1;
-    height: 600px;
+    height: 37.5rem;
     position: static;
 }
 
 .hero-image img {
     opacity: 1;
     width: 100%;
-    height: 602px;
+    height: 37.625rem;
     object-fit: cover;
     position: absolute;
 }
@@ -45,14 +42,14 @@
 .H1-preset {
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 1.875rem;
     align-items: flex-start;
     justify-content: center;
     flex-shrink: 0;
-    width: 540px;
+    width: 33.75rem;
     position: absolute;
-    left: calc(50% - 555px);
-    top: calc(50% - 100px);
+    left: calc(50% - 34.6875rem);
+    top: calc(50% - 7rem);
     overflow: hidden;
 }
 
@@ -60,11 +57,10 @@
     top: 30%;
 }
 
-
 .H1-preset-text {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 0.625rem;
     align-items: flex-start;
     justify-content: flex-start;
     align-self: stretch;
@@ -73,15 +69,17 @@
 }
 
 .brlogo {
-    align-self: stretch;
-    flex: 1;
-    position: relative;
+    width: auto; /* Laisse la largeur automatique */
+    height: auto; /* Laisse la hauteur automatique */
+    max-width: 100%; /* Assurez que le logo ne dépasse pas la largeur du conteneur */
+    max-height: 100%; /* Assurez que le logo ne dépasse pas la hauteur du conteneur */
+    object-fit: contain; /* Ajuste l'image en conservant le ratio d'origine */
 }
 
 .H1-preset-text .headline {
     color: #121212;
     text-align: left;
-    font: var(--h-1-6475, 700 64px/75px "Barlow", sans-serif);
+    font: var(--h-1-6475, 700 4rem/4.6875rem "Barlow", sans-serif);
     text-transform: uppercase;
     position: relative;
     align-self: stretch;
@@ -90,7 +88,7 @@
 .H1-preset-text .paragraph {
     color: #121212;
     text-align: left;
-    font: var(--lead-paragraph-2430, 400 24px/30px "Barlow", sans-serif);
+    font: var(--lead-paragraph-2430, 400 1.5rem/1.875rem "Barlow", sans-serif);
     position: relative;
     align-self: stretch;
 }
@@ -98,7 +96,7 @@
 .H1-preset .header-group {
     display: flex;
     flex-direction: column;
-    gap: 5px;
+    gap: 0.3125rem;
     align-items: flex-start;
     justify-content: flex-start;
     align-self: stretch;
@@ -109,7 +107,7 @@
 .H1-preset .overline {
     color: #121212;
     text-align: left;
-    font: var(--h-418-20, 700 18px/20px "Barlow", sans-serif);
+    font: var(--h-418-20, 700 1.125rem/1.25rem "Barlow", sans-serif);
     text-transform: uppercase;
     position: relative;
     align-self: stretch;
@@ -117,11 +115,11 @@
 
 .button {
     background: #e11b19;
-    border-radius: 5px;
-    padding: 10px 20px 10px 20px;
+    border-radius: 0.3125rem;
+    padding: 0.625rem 1.25rem 0.625rem 1.25rem;
     display: flex;
     flex-direction: row;
-    gap: 10px;
+    gap: 0.625rem;
     align-items: center;
     justify-content: center;
     flex-shrink: 0;
@@ -138,7 +136,7 @@
 .button-text {
     color: #eeeeee;
     text-align: left;
-    font: var(--h-5-1620, 700 16px/20px "Barlow", sans-serif);
+    font: var(--h-5-1620, 700 1rem/1.25rem "Barlow", sans-serif);
     text-transform: uppercase;
     position: relative;
 }
@@ -152,15 +150,14 @@
 .navbar {
     display: flex;
     flex-direction: row;
-    gap: 70px;
+    gap: 4.375rem;
     align-items: center;
     justify-content: space-between;
     flex-shrink: 0;
     width: 90%;
-    height: 40px;
+    height: 2.5rem;
     position: absolute;
     top: 5%;
-
 }
 
 
@@ -182,8 +179,6 @@
     position: relative;
     overflow: hidden;
 }
-
-
 
 
 
@@ -374,8 +369,17 @@
     .H1-preset {
         position: absolute;
         left: 88px;
-        /*top: 135px;*/
-        top: calc(50% - 100px);
+        top: 135px;
+    }
+
+    .icon-features {
+        display: flex;
+        padding: 40px 0;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        align-self: stretch;
     }
 
     .media-feature {
@@ -388,15 +392,9 @@
         align-self: stretch;
     }
 
-    .imageLeft {
-        flex-direction: column;
-    }
-
-    .imageRight {
+    #media-feature-2 {
         flex-direction: column-reverse;
     }
-
-
 
 
 }
@@ -476,5 +474,4 @@
 
 
 }
-
 

@@ -27,8 +27,6 @@ const HomePage: React.FC = () => {
                         buttonText="En savoir plus"
                         buttonHref="/event"
                     />
-
-
                 </div>
                 <IconFeatures unit="km"/>
 
