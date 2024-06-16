@@ -31,21 +31,22 @@ const HomePage: React.FC = () => {
                 <IconFeatures unit="km"/>
 
                 <MediaFeature
-                    images={["/winimg.png"]}
+                    images={["/podium.png"]}
                     alt="The Blood Run Gagnants"
                     overlineText="8 septembre 2024"
-                    headlineText="6ème édition"
-                    text={["La grande course de la rentrée revient avec l'ambition de rassembler le plus grand monde possible.",
+                    headlineText="Inscriptions ouvertes !"
+                    text={["Plus possible de donner un certificat médical, une nouvelle procédure est instaurée par la FFA: le Parcours Prévision Santé à remplir sur le site de la fédération.",
                         <br key="break"/>,
-                        "Les inscriptions ouvriront bientôt. Restez connectés ! En attendant, découvrez les photos de l'édition précédente."
+                        <br key="break"/>,
+                        "Plus d'infos sur le lien ci-dessous."
                     ]}
-                    buttonText="La Galerie"
-                    buttonHref="https://galerie.bloodrun.fr"
+                    buttonText="S'inscrire"
+                    buttonHref="https://sportips.fr/inscription/BLOOD24"
                     variant="imageLeft"
                 />
 
                 <MediaFeature
-                    images={["/benevoles.png"]}
+                    images={["/depart.png"]}
                     alt="The Blood Run Bénévoles et aide"
                     overlineText="Une autre façon de participer"
                     headlineText="Devenez bénévoles"
@@ -63,9 +64,9 @@ const HomePage: React.FC = () => {
                     alt="The Blood Run 2024 coureur"
                     overlineText="Blood run 2024"
                     headlineText="prêts, feu, partez"
-                    text="Les inscriptions à la Blood Run 2024 ouvriront bientôt !"
-                    buttonText="Galerie photos"
-                    buttonHref="https://galerie.bloodrun.fr"
+                    text="Les inscriptions à la Blood Run 2024 sont désormais ouvertes !"
+                    buttonText="S'inscrire"
+                    buttonHref="https://sportips.fr/inscription/BLOOD24"
                 />
 
                 <Footer/>

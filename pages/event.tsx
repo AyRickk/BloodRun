@@ -62,7 +62,7 @@ const EventPage: React.FC = () => {
                 />
             </div>
             <MediaFeature
-                images={['/afficheRecto2023.jpg', '/afficheVerso2023.jpg']}
+                images={['/flyerRecto2024.jpg', '/flyerVerso2024.jpg']}
                 alt='affiches The Blood Run 2023 Sollies Pont'
                 variant='doubleImage'
                 backgroundColor='linear-gradient(180deg, rgba(242, 242, 242, 1) 0%, rgba(255, 255, 255, 1) 100%)'
@@ -84,7 +84,7 @@ const EventPage: React.FC = () => {
 
 
             <MediaFeature
-                images={['/commercants.png']}
+                images={['/chateau.png']}
                 alt='The Blood Run commerçants Sollies Pont'
                 headlineText='Notre objectif'
                 text={[
@@ -125,8 +125,8 @@ const EventPage: React.FC = () => {
                 overlineText="Blood run 2023"
                 headlineText="TOUS EN ROUGE !"
                 text="N’oubliez pas : Je marche, je cours et je roule avec un tee shirt rouge."
-                buttonText="Galeries photos"
-                buttonHref="https://galerie.bloodrun.fr"/>
+                buttonText="S'inscrire"
+                buttonHref="https://sportips.fr/inscription/BLOOD24"/>
             <Footer/>
         </>
     );
