@@ -49,7 +49,7 @@ const EventPage: React.FC = () => {
             <CustomHead title="The Blood Run | L'évènement"/>
             <Navbar/>
             <div className="home-page">
-                <Hero image="/bghero.jpg" alt="The Blood Run 2023 départ handisport"/>
+                <Hero image="/bghero.jpg" alt="The Blood Run 2025 départ handisport"/>
                 <SectionTitle
                     overlineText="Blood run"
                     headlineText="L’évènement"
@@ -62,8 +62,8 @@ const EventPage: React.FC = () => {
                 />
             </div>
             <MediaFeature
-                images={['/flyerRecto2024.jpg', '/flyerVerso2024.jpg']}
-                alt='affiches The Blood Run 2023 Sollies Pont'
+                images={['/recto2025.jpg', '/verso2025.jpg']}
+                alt='affiches The Blood Run 2025 Sollies Pont'
                 variant='doubleImage'
                 backgroundColor='linear-gradient(180deg, rgba(242, 242, 242, 1) 0%, rgba(255, 255, 255, 1) 100%)'
             />
@@ -121,12 +121,12 @@ const EventPage: React.FC = () => {
             <OrganizationTeam team={team}/>
             <Banner
                 image="/bgbanner.jpg"
-                alt="The Blood Run 2023 coureur"
-                overlineText="Blood run 2023"
+                alt="The Blood Run 2025 coureur"
+                overlineText="Blood run 2025"
                 headlineText="TOUS EN ROUGE !"
                 text="N’oubliez pas : Je marche, je cours et je roule avec un tee shirt rouge."
                 buttonText="S'inscrire"
-                buttonHref="https://sportips.fr/inscription/BLOOD24"/>
+                buttonHref="https://sportips.fr/inscription/BLOOD25"/>
             <Footer/>
         </>
     );

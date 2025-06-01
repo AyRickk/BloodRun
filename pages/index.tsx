@@ -16,13 +16,13 @@ const HomePage: React.FC = () => {
                 <CustomHead title="The Blood Run | Accueil"/>
                 <Navbar/>
                 <div className="home-page">
-                    <Hero image="/bghero.jpg" alt="The Blood Run 2024 départ handisport"/>
+                    <Hero image="/bghero.jpg" alt="The Blood Run 2025 départ handisport"/>
                     <SectionTitle
-                        imgSrc="/Logo_Text.svg" alt="The Blood Run 2024 logo"
+                        imgSrc="/Logo_Text.svg" alt="The Blood Run 2025 logo"
                         paragraphText={[
                             <span key="line1">La course annuelle pour promouvoir le don du sang.</span>,
                             <br key="break"/>,
-                            <span key="line2">The Blood Run 2024 le 08 septembre prochain à Sollies Pont !</span>
+                            <span key="line2">The Blood Run 2025 le 07 septembre prochain à Sollies Pont !</span>
                         ]}
                         buttonText="En savoir plus"
                         buttonHref="/event"
@@ -33,7 +33,7 @@ const HomePage: React.FC = () => {
                 <MediaFeature
                     images={["/podium.png"]}
                     alt="The Blood Run Gagnants"
-                    overlineText="8 septembre 2024"
+                    overlineText="7 septembre 2025"
                     headlineText="Inscriptions ouvertes !"
                     text={["Plus possible de donner un certificat médical, une nouvelle procédure est instaurée par la FFA: le Parcours Prévision Santé à remplir sur le site de la fédération.",
                         <br key="break"/>,
@@ -41,7 +41,7 @@ const HomePage: React.FC = () => {
                         "Plus d'infos sur le lien ci-dessous."
                     ]}
                     buttonText="S'inscrire"
-                    buttonHref="https://sportips.fr/inscription/BLOOD24"
+                    buttonHref="https://sportips.fr/inscription/BLOOD25"
                     variant="imageLeft"
                 />
 
@@ -61,12 +61,12 @@ const HomePage: React.FC = () => {
 
                 <Banner
                     image="/bgbanner.jpg"
-                    alt="The Blood Run 2024 coureur"
-                    overlineText="Blood run 2024"
+                    alt="The Blood Run 2025 coureur"
+                    overlineText="Blood run 2025"
                     headlineText="prêts, feu, partez"
-                    text="Les inscriptions à la Blood Run 2024 sont désormais ouvertes !"
+                    text="Les inscriptions à la Blood Run 2025 sont désormais ouvertes !"
                     buttonText="S'inscrire"
-                    buttonHref="https://sportips.fr/inscription/BLOOD24"
+                    buttonHref="https://sportips.fr/inscription/BLOOD25"
                 />
 
                 <Footer/>

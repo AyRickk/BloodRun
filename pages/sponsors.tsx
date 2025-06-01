@@ -25,7 +25,7 @@ const SponsorsPage: React.FC = () => {
 
     const sponsors = [
         {src: "./institutions/ca.png", alt: "Blood Run Sponsors Credit Agricole"},
-        {src: "./institutions/fe.png", alt: "Blood Run Sponsors Fe"},
+        // {src: "./institutions/fe.png", alt: "Blood Run Sponsors Fe"},
         {src: "./institutions/fpi.png", alt: "Blood Run Sponsors Fpi"},
         {src: "./institutions/biocoop.png", alt: "Blood Run Sponsors Biocoop"},
         {src: "./institutions/sportips.png", alt: "Blood Run Sponsors Sportips"},
