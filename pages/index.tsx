@@ -18,7 +18,7 @@ const HomePage: React.FC = () => {
                 <div className="home-page">
                     <Hero image="/bghero.jpg" alt="The Blood Run 2025 départ handisport"/>
                     <SectionTitle
-                        imgSrc="/Logo_Text.svg" alt="The Blood Run 2025 logo"
+                        imgSrc="/logo_text_2025.svg" alt="The Blood Run 2025 logo"
                         paragraphText={[
                             <span key="line1">La course annuelle pour promouvoir le don du sang.</span>,
                             <br key="break"/>,
